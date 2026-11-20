@@ -1,0 +1,4442 @@
+{
+  "category": "western-dresses",
+  "categoryName": "Western Dresses",
+  "generatedAt": "2026-11-20T04:40:44.896Z",
+  "statistics": {
+    "total_category_images": 1186,
+    "productised_images_used": 843,
+    "remaining_unassigned_images": 343,
+    "product_groups_created": 187
+  },
+  "unassigned_images": [
+    {
+      "filename": "10201.jpg.jpeg",
+      "url": "/western-dresses/10201.jpg.jpeg",
+      "path": "public/western-dresses/10201.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10277.jpg.jpeg",
+      "url": "/western-dresses/10277.jpg.jpeg",
+      "path": "public/western-dresses/10277.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10848.jpg.jpeg",
+      "url": "/western-dresses/10848.jpg.jpeg",
+      "path": "public/western-dresses/10848.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10866.jpg.jpeg",
+      "url": "/western-dresses/10866.jpg.jpeg",
+      "path": "public/western-dresses/10866.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10883.jpg.jpeg",
+      "url": "/western-dresses/10883.jpg.jpeg",
+      "path": "public/western-dresses/10883.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10884.jpg.jpeg",
+      "url": "/western-dresses/10884.jpg.jpeg",
+      "path": "public/western-dresses/10884.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10886.jpg.jpeg",
+      "url": "/western-dresses/10886.jpg.jpeg",
+      "path": "public/western-dresses/10886.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10948.jpg.jpeg",
+      "url": "/western-dresses/10948.jpg.jpeg",
+      "path": "public/western-dresses/10948.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10950.jpg.jpeg",
+      "url": "/western-dresses/10950.jpg.jpeg",
+      "path": "public/western-dresses/10950.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "10976.jpg.jpeg",
+      "url": "/western-dresses/10976.jpg.jpeg",
+      "path": "public/western-dresses/10976.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11046.jpg.jpeg",
+      "url": "/western-dresses/11046.jpg.jpeg",
+      "path": "public/western-dresses/11046.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11053.jpg.jpeg",
+      "url": "/western-dresses/11053.jpg.jpeg",
+      "path": "public/western-dresses/11053.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11076.jpg.jpeg",
+      "url": "/western-dresses/11076.jpg.jpeg",
+      "path": "public/western-dresses/11076.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11079.jpg.jpeg",
+      "url": "/western-dresses/11079.jpg.jpeg",
+      "path": "public/western-dresses/11079.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11092.jpg.jpeg",
+      "url": "/western-dresses/11092.jpg.jpeg",
+      "path": "public/western-dresses/11092.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11168.jpg.jpeg",
+      "url": "/western-dresses/11168.jpg.jpeg",
+      "path": "public/western-dresses/11168.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11174.jpg.jpeg",
+      "url": "/western-dresses/11174.jpg.jpeg",
+      "path": "public/western-dresses/11174.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11175.jpg.jpeg",
+      "url": "/western-dresses/11175.jpg.jpeg",
+      "path": "public/western-dresses/11175.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11176.jpg.jpeg",
+      "url": "/western-dresses/11176.jpg.jpeg",
+      "path": "public/western-dresses/11176.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11179.jpg.jpeg",
+      "url": "/western-dresses/11179.jpg.jpeg",
+      "path": "public/western-dresses/11179.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11204.jpg.jpeg",
+      "url": "/western-dresses/11204.jpg.jpeg",
+      "path": "public/western-dresses/11204.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11207.jpg.jpeg",
+      "url": "/western-dresses/11207.jpg.jpeg",
+      "path": "public/western-dresses/11207.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11210.jpg.jpeg",
+      "url": "/western-dresses/11210.jpg.jpeg",
+      "path": "public/western-dresses/11210.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11212.jpg.jpeg",
+      "url": "/western-dresses/11212.jpg.jpeg",
+      "path": "public/western-dresses/11212.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11260.jpg.jpeg",
+      "url": "/western-dresses/11260.jpg.jpeg",
+      "path": "public/western-dresses/11260.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11266.jpg.jpeg",
+      "url": "/western-dresses/11266.jpg.jpeg",
+      "path": "public/western-dresses/11266.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11267.jpg.jpeg",
+      "url": "/western-dresses/11267.jpg.jpeg",
+      "path": "public/western-dresses/11267.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11270.jpg.jpeg",
+      "url": "/western-dresses/11270.jpg.jpeg",
+      "path": "public/western-dresses/11270.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11271.jpg.jpeg",
+      "url": "/western-dresses/11271.jpg.jpeg",
+      "path": "public/western-dresses/11271.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11272.jpg.jpeg",
+      "url": "/western-dresses/11272.jpg.jpeg",
+      "path": "public/western-dresses/11272.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11273.jpg.jpeg",
+      "url": "/western-dresses/11273.jpg.jpeg",
+      "path": "public/western-dresses/11273.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11274.jpg.jpeg",
+      "url": "/western-dresses/11274.jpg.jpeg",
+      "path": "public/western-dresses/11274.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11300.jpg.jpeg",
+      "url": "/western-dresses/11300.jpg.jpeg",
+      "path": "public/western-dresses/11300.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11314.jpg.jpeg",
+      "url": "/western-dresses/11314.jpg.jpeg",
+      "path": "public/western-dresses/11314.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11317.jpg.jpeg",
+      "url": "/western-dresses/11317.jpg.jpeg",
+      "path": "public/western-dresses/11317.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11319.jpg.jpeg",
+      "url": "/western-dresses/11319.jpg.jpeg",
+      "path": "public/western-dresses/11319.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11366.jpg.jpeg",
+      "url": "/western-dresses/11366.jpg.jpeg",
+      "path": "public/western-dresses/11366.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11367.jpg.jpeg",
+      "url": "/western-dresses/11367.jpg.jpeg",
+      "path": "public/western-dresses/11367.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11373.jpg.jpeg",
+      "url": "/western-dresses/11373.jpg.jpeg",
+      "path": "public/western-dresses/11373.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11374.jpg.jpeg",
+      "url": "/western-dresses/11374.jpg.jpeg",
+      "path": "public/western-dresses/11374.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11375.jpg.jpeg",
+      "url": "/western-dresses/11375.jpg.jpeg",
+      "path": "public/western-dresses/11375.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11399.jpg.jpeg",
+      "url": "/western-dresses/11399.jpg.jpeg",
+      "path": "public/western-dresses/11399.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11401.jpg.jpeg",
+      "url": "/western-dresses/11401.jpg.jpeg",
+      "path": "public/western-dresses/11401.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11403.jpg.jpeg",
+      "url": "/western-dresses/11403.jpg.jpeg",
+      "path": "public/western-dresses/11403.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11404.jpg.jpeg",
+      "url": "/western-dresses/11404.jpg.jpeg",
+      "path": "public/western-dresses/11404.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11405.jpg.jpeg",
+      "url": "/western-dresses/11405.jpg.jpeg",
+      "path": "public/western-dresses/11405.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11409.jpg.jpeg",
+      "url": "/western-dresses/11409.jpg.jpeg",
+      "path": "public/western-dresses/11409.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11410.jpg.jpeg",
+      "url": "/western-dresses/11410.jpg.jpeg",
+      "path": "public/western-dresses/11410.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11412.jpg.jpeg",
+      "url": "/western-dresses/11412.jpg.jpeg",
+      "path": "public/western-dresses/11412.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11485.jpg.jpeg",
+      "url": "/western-dresses/11485.jpg.jpeg",
+      "path": "public/western-dresses/11485.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11486.jpg.jpeg",
+      "url": "/western-dresses/11486.jpg.jpeg",
+      "path": "public/western-dresses/11486.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11493.jpg.jpeg",
+      "url": "/western-dresses/11493.jpg.jpeg",
+      "path": "public/western-dresses/11493.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11500.jpg.jpeg",
+      "url": "/western-dresses/11500.jpg.jpeg",
+      "path": "public/western-dresses/11500.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11520.jpg.jpeg",
+      "url": "/western-dresses/11520.jpg.jpeg",
+      "path": "public/western-dresses/11520.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11528.jpg.jpeg",
+      "url": "/western-dresses/11528.jpg.jpeg",
+      "path": "public/western-dresses/11528.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11530.jpg.jpeg",
+      "url": "/western-dresses/11530.jpg.jpeg",
+      "path": "public/western-dresses/11530.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11532.jpg.jpeg",
+      "url": "/western-dresses/11532.jpg.jpeg",
+      "path": "public/western-dresses/11532.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11536.jpg.jpeg",
+      "url": "/western-dresses/11536.jpg.jpeg",
+      "path": "public/western-dresses/11536.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11596.jpg.jpeg",
+      "url": "/western-dresses/11596.jpg.jpeg",
+      "path": "public/western-dresses/11596.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11597.jpg.jpeg",
+      "url": "/western-dresses/11597.jpg.jpeg",
+      "path": "public/western-dresses/11597.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11598.jpg.jpeg",
+      "url": "/western-dresses/11598.jpg.jpeg",
+      "path": "public/western-dresses/11598.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11599.jpg.jpeg",
+      "url": "/western-dresses/11599.jpg.jpeg",
+      "path": "public/western-dresses/11599.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11600.jpg.jpeg",
+      "url": "/western-dresses/11600.jpg.jpeg",
+      "path": "public/western-dresses/11600.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11601.jpg.jpeg",
+      "url": "/western-dresses/11601.jpg.jpeg",
+      "path": "public/western-dresses/11601.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11602.jpg.jpeg",
+      "url": "/western-dresses/11602.jpg.jpeg",
+      "path": "public/western-dresses/11602.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11685.jpg.jpeg",
+      "url": "/western-dresses/11685.jpg.jpeg",
+      "path": "public/western-dresses/11685.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11690.jpg.jpeg",
+      "url": "/western-dresses/11690.jpg.jpeg",
+      "path": "public/western-dresses/11690.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11691.jpg.jpeg",
+      "url": "/western-dresses/11691.jpg.jpeg",
+      "path": "public/western-dresses/11691.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11732.jpg.jpeg",
+      "url": "/western-dresses/11732.jpg.jpeg",
+      "path": "public/western-dresses/11732.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11733.jpg.jpeg",
+      "url": "/western-dresses/11733.jpg.jpeg",
+      "path": "public/western-dresses/11733.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11782.jpg.jpeg",
+      "url": "/western-dresses/11782.jpg.jpeg",
+      "path": "public/western-dresses/11782.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11790.jpg.jpeg",
+      "url": "/western-dresses/11790.jpg.jpeg",
+      "path": "public/western-dresses/11790.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11791.jpg.jpeg",
+      "url": "/western-dresses/11791.jpg.jpeg",
+      "path": "public/western-dresses/11791.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11793.jpg.jpeg",
+      "url": "/western-dresses/11793.jpg.jpeg",
+      "path": "public/western-dresses/11793.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11794.jpg.jpeg",
+      "url": "/western-dresses/11794.jpg.jpeg",
+      "path": "public/western-dresses/11794.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11795.jpg.jpeg",
+      "url": "/western-dresses/11795.jpg.jpeg",
+      "path": "public/western-dresses/11795.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11830.jpg.jpeg",
+      "url": "/western-dresses/11830.jpg.jpeg",
+      "path": "public/western-dresses/11830.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11837.jpg.jpeg",
+      "url": "/western-dresses/11837.jpg.jpeg",
+      "path": "public/western-dresses/11837.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11838.jpg.jpeg",
+      "url": "/western-dresses/11838.jpg.jpeg",
+      "path": "public/western-dresses/11838.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11840.jpg.jpeg",
+      "url": "/western-dresses/11840.jpg.jpeg",
+      "path": "public/western-dresses/11840.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11841.jpg.jpeg",
+      "url": "/western-dresses/11841.jpg.jpeg",
+      "path": "public/western-dresses/11841.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11844.jpg.jpeg",
+      "url": "/western-dresses/11844.jpg.jpeg",
+      "path": "public/western-dresses/11844.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11888.jpg.jpeg",
+      "url": "/western-dresses/11888.jpg.jpeg",
+      "path": "public/western-dresses/11888.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11894.jpg.jpeg",
+      "url": "/western-dresses/11894.jpg.jpeg",
+      "path": "public/western-dresses/11894.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11895.jpg.jpeg",
+      "url": "/western-dresses/11895.jpg.jpeg",
+      "path": "public/western-dresses/11895.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11896.jpg.jpeg",
+      "url": "/western-dresses/11896.jpg.jpeg",
+      "path": "public/western-dresses/11896.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11915.jpg.jpeg",
+      "url": "/western-dresses/11915.jpg.jpeg",
+      "path": "public/western-dresses/11915.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11917.jpg.jpeg",
+      "url": "/western-dresses/11917.jpg.jpeg",
+      "path": "public/western-dresses/11917.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11928.jpg.jpeg",
+      "url": "/western-dresses/11928.jpg.jpeg",
+      "path": "public/western-dresses/11928.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11929.jpg.jpeg",
+      "url": "/western-dresses/11929.jpg.jpeg",
+      "path": "public/western-dresses/11929.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "11932.jpg.jpeg",
+      "url": "/western-dresses/11932.jpg.jpeg",
+      "path": "public/western-dresses/11932.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12016.jpg.jpeg",
+      "url": "/western-dresses/12016.jpg.jpeg",
+      "path": "public/western-dresses/12016.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12020.jpg.jpeg",
+      "url": "/western-dresses/12020.jpg.jpeg",
+      "path": "public/western-dresses/12020.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12022.jpg.jpeg",
+      "url": "/western-dresses/12022.jpg.jpeg",
+      "path": "public/western-dresses/12022.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12049.jpg.jpeg",
+      "url": "/western-dresses/12049.jpg.jpeg",
+      "path": "public/western-dresses/12049.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12053.jpg.jpeg",
+      "url": "/western-dresses/12053.jpg.jpeg",
+      "path": "public/western-dresses/12053.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12055.jpg.jpeg",
+      "url": "/western-dresses/12055.jpg.jpeg",
+      "path": "public/western-dresses/12055.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12057.jpg.jpeg",
+      "url": "/western-dresses/12057.jpg.jpeg",
+      "path": "public/western-dresses/12057.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12061.jpg.jpeg",
+      "url": "/western-dresses/12061.jpg.jpeg",
+      "path": "public/western-dresses/12061.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12107.jpg.jpeg",
+      "url": "/western-dresses/12107.jpg.jpeg",
+      "path": "public/western-dresses/12107.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12123.jpg.jpeg",
+      "url": "/western-dresses/12123.jpg.jpeg",
+      "path": "public/western-dresses/12123.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12124.jpg.jpeg",
+      "url": "/western-dresses/12124.jpg.jpeg",
+      "path": "public/western-dresses/12124.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12138.jpg.jpeg",
+      "url": "/western-dresses/12138.jpg.jpeg",
+      "path": "public/western-dresses/12138.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12149.jpg.jpeg",
+      "url": "/western-dresses/12149.jpg.jpeg",
+      "path": "public/western-dresses/12149.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12150.jpg.jpeg",
+      "url": "/western-dresses/12150.jpg.jpeg",
+      "path": "public/western-dresses/12150.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12151.jpg.jpeg",
+      "url": "/western-dresses/12151.jpg.jpeg",
+      "path": "public/western-dresses/12151.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12157.jpg.jpeg",
+      "url": "/western-dresses/12157.jpg.jpeg",
+      "path": "public/western-dresses/12157.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12158.jpg.jpeg",
+      "url": "/western-dresses/12158.jpg.jpeg",
+      "path": "public/western-dresses/12158.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12223.jpg.jpeg",
+      "url": "/western-dresses/12223.jpg.jpeg",
+      "path": "public/western-dresses/12223.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12224.jpg.jpeg",
+      "url": "/western-dresses/12224.jpg.jpeg",
+      "path": "public/western-dresses/12224.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12225.jpg.jpeg",
+      "url": "/western-dresses/12225.jpg.jpeg",
+      "path": "public/western-dresses/12225.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12245.jpg.jpeg",
+      "url": "/western-dresses/12245.jpg.jpeg",
+      "path": "public/western-dresses/12245.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12254.jpg.jpeg",
+      "url": "/western-dresses/12254.jpg.jpeg",
+      "path": "public/western-dresses/12254.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12255.jpg.jpeg",
+      "url": "/western-dresses/12255.jpg.jpeg",
+      "path": "public/western-dresses/12255.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12259.jpg.jpeg",
+      "url": "/western-dresses/12259.jpg.jpeg",
+      "path": "public/western-dresses/12259.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12260.jpg.jpeg",
+      "url": "/western-dresses/12260.jpg.jpeg",
+      "path": "public/western-dresses/12260.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12262.jpg.jpeg",
+      "url": "/western-dresses/12262.jpg.jpeg",
+      "path": "public/western-dresses/12262.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12316.jpg.jpeg",
+      "url": "/western-dresses/12316.jpg.jpeg",
+      "path": "public/western-dresses/12316.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12317.jpg.jpeg",
+      "url": "/western-dresses/12317.jpg.jpeg",
+      "path": "public/western-dresses/12317.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12326.jpg.jpeg",
+      "url": "/western-dresses/12326.jpg.jpeg",
+      "path": "public/western-dresses/12326.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12327.jpg.jpeg",
+      "url": "/western-dresses/12327.jpg.jpeg",
+      "path": "public/western-dresses/12327.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12332.jpg.jpeg",
+      "url": "/western-dresses/12332.jpg.jpeg",
+      "path": "public/western-dresses/12332.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12334.jpg.jpeg",
+      "url": "/western-dresses/12334.jpg.jpeg",
+      "path": "public/western-dresses/12334.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12361.jpg.jpeg",
+      "url": "/western-dresses/12361.jpg.jpeg",
+      "path": "public/western-dresses/12361.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12373.jpg.jpeg",
+      "url": "/western-dresses/12373.jpg.jpeg",
+      "path": "public/western-dresses/12373.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12374.jpg.jpeg",
+      "url": "/western-dresses/12374.jpg.jpeg",
+      "path": "public/western-dresses/12374.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12375.jpg.jpeg",
+      "url": "/western-dresses/12375.jpg.jpeg",
+      "path": "public/western-dresses/12375.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12376.jpg (1).jpeg",
+      "url": "/western-dresses/12376.jpg (1).jpeg",
+      "path": "public/western-dresses/12376.jpg (1).jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12376.jpg.jpeg",
+      "url": "/western-dresses/12376.jpg.jpeg",
+      "path": "public/western-dresses/12376.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12437.jpg.jpeg",
+      "url": "/western-dresses/12437.jpg.jpeg",
+      "path": "public/western-dresses/12437.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12438.jpg.jpeg",
+      "url": "/western-dresses/12438.jpg.jpeg",
+      "path": "public/western-dresses/12438.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12445.jpg.jpeg",
+      "url": "/western-dresses/12445.jpg.jpeg",
+      "path": "public/western-dresses/12445.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12446.jpg.jpeg",
+      "url": "/western-dresses/12446.jpg.jpeg",
+      "path": "public/western-dresses/12446.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12448.jpg.jpeg",
+      "url": "/western-dresses/12448.jpg.jpeg",
+      "path": "public/western-dresses/12448.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12466.jpg.jpeg",
+      "url": "/western-dresses/12466.jpg.jpeg",
+      "path": "public/western-dresses/12466.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12470.jpg.jpeg",
+      "url": "/western-dresses/12470.jpg.jpeg",
+      "path": "public/western-dresses/12470.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12479.jpg.jpeg",
+      "url": "/western-dresses/12479.jpg.jpeg",
+      "path": "public/western-dresses/12479.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12480.jpg.jpeg",
+      "url": "/western-dresses/12480.jpg.jpeg",
+      "path": "public/western-dresses/12480.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12482.jpg.jpeg",
+      "url": "/western-dresses/12482.jpg.jpeg",
+      "path": "public/western-dresses/12482.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12483.jpg.jpeg",
+      "url": "/western-dresses/12483.jpg.jpeg",
+      "path": "public/western-dresses/12483.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "12623.jpg.jpeg",
+      "url": "/western-dresses/12623.jpg.jpeg",
+      "path": "public/western-dresses/12623.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "13523.jpg.jpeg",
+      "url": "/western-dresses/13523.jpg.jpeg",
+      "path": "public/western-dresses/13523.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "13629.jpg.jpeg",
+      "url": "/western-dresses/13629.jpg.jpeg",
+      "path": "public/western-dresses/13629.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "14364.jpg.jpeg",
+      "url": "/western-dresses/14364.jpg.jpeg",
+      "path": "public/western-dresses/14364.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "14787.jpg.jpeg",
+      "url": "/western-dresses/14787.jpg.jpeg",
+      "path": "public/western-dresses/14787.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "14961.jpg.jpeg",
+      "url": "/western-dresses/14961.jpg.jpeg",
+      "path": "public/western-dresses/14961.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "55723.jpg.jpeg",
+      "url": "/western-dresses/55723.jpg.jpeg",
+      "path": "public/western-dresses/55723.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5612.jpg.jpeg",
+      "url": "/western-dresses/5612.jpg.jpeg",
+      "path": "public/western-dresses/5612.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5621.jpg.jpeg",
+      "url": "/western-dresses/5621.jpg.jpeg",
+      "path": "public/western-dresses/5621.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5632.jpg.jpeg",
+      "url": "/western-dresses/5632.jpg.jpeg",
+      "path": "public/western-dresses/5632.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5637.jpg.jpeg",
+      "url": "/western-dresses/5637.jpg.jpeg",
+      "path": "public/western-dresses/5637.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5763.jpg.jpeg",
+      "url": "/western-dresses/5763.jpg.jpeg",
+      "path": "public/western-dresses/5763.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5764.jpg.jpeg",
+      "url": "/western-dresses/5764.jpg.jpeg",
+      "path": "public/western-dresses/5764.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5765.jpg.jpeg",
+      "url": "/western-dresses/5765.jpg.jpeg",
+      "path": "public/western-dresses/5765.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5766.jpg.jpeg",
+      "url": "/western-dresses/5766.jpg.jpeg",
+      "path": "public/western-dresses/5766.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5767.jpg.jpeg",
+      "url": "/western-dresses/5767.jpg.jpeg",
+      "path": "public/western-dresses/5767.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5768.jpg.jpeg",
+      "url": "/western-dresses/5768.jpg.jpeg",
+      "path": "public/western-dresses/5768.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5783.jpg.jpeg",
+      "url": "/western-dresses/5783.jpg.jpeg",
+      "path": "public/western-dresses/5783.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5786.jpg.jpeg",
+      "url": "/western-dresses/5786.jpg.jpeg",
+      "path": "public/western-dresses/5786.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5787.jpg.jpeg",
+      "url": "/western-dresses/5787.jpg.jpeg",
+      "path": "public/western-dresses/5787.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5790.jpg.jpeg",
+      "url": "/western-dresses/5790.jpg.jpeg",
+      "path": "public/western-dresses/5790.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5791.jpg.jpeg",
+      "url": "/western-dresses/5791.jpg.jpeg",
+      "path": "public/western-dresses/5791.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5792.jpg.jpeg",
+      "url": "/western-dresses/5792.jpg.jpeg",
+      "path": "public/western-dresses/5792.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5793.jpg.jpeg",
+      "url": "/western-dresses/5793.jpg.jpeg",
+      "path": "public/western-dresses/5793.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5794.jpg.jpeg",
+      "url": "/western-dresses/5794.jpg.jpeg",
+      "path": "public/western-dresses/5794.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5797.jpg.jpeg",
+      "url": "/western-dresses/5797.jpg.jpeg",
+      "path": "public/western-dresses/5797.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5800.jpg.jpeg",
+      "url": "/western-dresses/5800.jpg.jpeg",
+      "path": "public/western-dresses/5800.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5801.jpg.jpeg",
+      "url": "/western-dresses/5801.jpg.jpeg",
+      "path": "public/western-dresses/5801.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5813.jpg.jpeg",
+      "url": "/western-dresses/5813.jpg.jpeg",
+      "path": "public/western-dresses/5813.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5855.jpg.jpeg",
+      "url": "/western-dresses/5855.jpg.jpeg",
+      "path": "public/western-dresses/5855.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5858.jpg.jpeg",
+      "url": "/western-dresses/5858.jpg.jpeg",
+      "path": "public/western-dresses/5858.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5859.jpg.jpeg",
+      "url": "/western-dresses/5859.jpg.jpeg",
+      "path": "public/western-dresses/5859.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5864.jpg.jpeg",
+      "url": "/western-dresses/5864.jpg.jpeg",
+      "path": "public/western-dresses/5864.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5867.jpg.jpeg",
+      "url": "/western-dresses/5867.jpg.jpeg",
+      "path": "public/western-dresses/5867.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5868.jpg.jpeg",
+      "url": "/western-dresses/5868.jpg.jpeg",
+      "path": "public/western-dresses/5868.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5873.jpg.jpeg",
+      "url": "/western-dresses/5873.jpg.jpeg",
+      "path": "public/western-dresses/5873.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5878.jpg.jpeg",
+      "url": "/western-dresses/5878.jpg.jpeg",
+      "path": "public/western-dresses/5878.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5879.jpg.jpeg",
+      "url": "/western-dresses/5879.jpg.jpeg",
+      "path": "public/western-dresses/5879.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5886.jpg.jpeg",
+      "url": "/western-dresses/5886.jpg.jpeg",
+      "path": "public/western-dresses/5886.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5889.jpg.jpeg",
+      "url": "/western-dresses/5889.jpg.jpeg",
+      "path": "public/western-dresses/5889.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5892.jpg.jpeg",
+      "url": "/western-dresses/5892.jpg.jpeg",
+      "path": "public/western-dresses/5892.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5903.jpg.jpeg",
+      "url": "/western-dresses/5903.jpg.jpeg",
+      "path": "public/western-dresses/5903.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5949.jpg.jpeg",
+      "url": "/western-dresses/5949.jpg.jpeg",
+      "path": "public/western-dresses/5949.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5960.jpg.jpeg",
+      "url": "/western-dresses/5960.jpg.jpeg",
+      "path": "public/western-dresses/5960.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5964.jpg.jpeg",
+      "url": "/western-dresses/5964.jpg.jpeg",
+      "path": "public/western-dresses/5964.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5965.jpg.jpeg",
+      "url": "/western-dresses/5965.jpg.jpeg",
+      "path": "public/western-dresses/5965.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5966.jpg.jpeg",
+      "url": "/western-dresses/5966.jpg.jpeg",
+      "path": "public/western-dresses/5966.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5967.jpg.jpeg",
+      "url": "/western-dresses/5967.jpg.jpeg",
+      "path": "public/western-dresses/5967.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5983.jpg.jpeg",
+      "url": "/western-dresses/5983.jpg.jpeg",
+      "path": "public/western-dresses/5983.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5984.jpg.jpeg",
+      "url": "/western-dresses/5984.jpg.jpeg",
+      "path": "public/western-dresses/5984.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5985.jpg.jpeg",
+      "url": "/western-dresses/5985.jpg.jpeg",
+      "path": "public/western-dresses/5985.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5990.jpg.jpeg",
+      "url": "/western-dresses/5990.jpg.jpeg",
+      "path": "public/western-dresses/5990.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5992.jpg.jpeg",
+      "url": "/western-dresses/5992.jpg.jpeg",
+      "path": "public/western-dresses/5992.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "5996.jpg.jpeg",
+      "url": "/western-dresses/5996.jpg.jpeg",
+      "path": "public/western-dresses/5996.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6029.jpg.jpeg",
+      "url": "/western-dresses/6029.jpg.jpeg",
+      "path": "public/western-dresses/6029.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6030.jpg.jpeg",
+      "url": "/western-dresses/6030.jpg.jpeg",
+      "path": "public/western-dresses/6030.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6034.jpg.jpeg",
+      "url": "/western-dresses/6034.jpg.jpeg",
+      "path": "public/western-dresses/6034.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6037.jpg.jpeg",
+      "url": "/western-dresses/6037.jpg.jpeg",
+      "path": "public/western-dresses/6037.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6038.jpg.jpeg",
+      "url": "/western-dresses/6038.jpg.jpeg",
+      "path": "public/western-dresses/6038.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6039.jpg.jpeg",
+      "url": "/western-dresses/6039.jpg.jpeg",
+      "path": "public/western-dresses/6039.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6040.jpg.jpeg",
+      "url": "/western-dresses/6040.jpg.jpeg",
+      "path": "public/western-dresses/6040.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6046.jpg.jpeg",
+      "url": "/western-dresses/6046.jpg.jpeg",
+      "path": "public/western-dresses/6046.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6047.jpg.jpeg",
+      "url": "/western-dresses/6047.jpg.jpeg",
+      "path": "public/western-dresses/6047.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6048.jpg.jpeg",
+      "url": "/western-dresses/6048.jpg.jpeg",
+      "path": "public/western-dresses/6048.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6049.jpg.jpeg",
+      "url": "/western-dresses/6049.jpg.jpeg",
+      "path": "public/western-dresses/6049.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6050.jpg.jpeg",
+      "url": "/western-dresses/6050.jpg.jpeg",
+      "path": "public/western-dresses/6050.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6056.jpg.jpeg",
+      "url": "/western-dresses/6056.jpg.jpeg",
+      "path": "public/western-dresses/6056.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6058.jpg.jpeg",
+      "url": "/western-dresses/6058.jpg.jpeg",
+      "path": "public/western-dresses/6058.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6061.jpg.jpeg",
+      "url": "/western-dresses/6061.jpg.jpeg",
+      "path": "public/western-dresses/6061.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6064.jpg.jpeg",
+      "url": "/western-dresses/6064.jpg.jpeg",
+      "path": "public/western-dresses/6064.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6083.jpg.jpeg",
+      "url": "/western-dresses/6083.jpg.jpeg",
+      "path": "public/western-dresses/6083.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6085.jpg.jpeg",
+      "url": "/western-dresses/6085.jpg.jpeg",
+      "path": "public/western-dresses/6085.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6086.jpg.jpeg",
+      "url": "/western-dresses/6086.jpg.jpeg",
+      "path": "public/western-dresses/6086.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6087.jpg.jpeg",
+      "url": "/western-dresses/6087.jpg.jpeg",
+      "path": "public/western-dresses/6087.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6088.jpg.jpeg",
+      "url": "/western-dresses/6088.jpg.jpeg",
+      "path": "public/western-dresses/6088.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6089.jpg.jpeg",
+      "url": "/western-dresses/6089.jpg.jpeg",
+      "path": "public/western-dresses/6089.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6094.jpg.jpeg",
+      "url": "/western-dresses/6094.jpg.jpeg",
+      "path": "public/western-dresses/6094.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6095.jpg.jpeg",
+      "url": "/western-dresses/6095.jpg.jpeg",
+      "path": "public/western-dresses/6095.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6096.jpg.jpeg",
+      "url": "/western-dresses/6096.jpg.jpeg",
+      "path": "public/western-dresses/6096.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6097.jpg.jpeg",
+      "url": "/western-dresses/6097.jpg.jpeg",
+      "path": "public/western-dresses/6097.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6099.jpg.jpeg",
+      "url": "/western-dresses/6099.jpg.jpeg",
+      "path": "public/western-dresses/6099.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6103.jpg.jpeg",
+      "url": "/western-dresses/6103.jpg.jpeg",
+      "path": "public/western-dresses/6103.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6114.jpg.jpeg",
+      "url": "/western-dresses/6114.jpg.jpeg",
+      "path": "public/western-dresses/6114.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6115.jpg.jpeg",
+      "url": "/western-dresses/6115.jpg.jpeg",
+      "path": "public/western-dresses/6115.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6143.jpg.jpeg",
+      "url": "/western-dresses/6143.jpg.jpeg",
+      "path": "public/western-dresses/6143.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6144.jpg.jpeg",
+      "url": "/western-dresses/6144.jpg.jpeg",
+      "path": "public/western-dresses/6144.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6148.jpg.jpeg",
+      "url": "/western-dresses/6148.jpg.jpeg",
+      "path": "public/western-dresses/6148.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6152.jpg.jpeg",
+      "url": "/western-dresses/6152.jpg.jpeg",
+      "path": "public/western-dresses/6152.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6153.jpg.jpeg",
+      "url": "/western-dresses/6153.jpg.jpeg",
+      "path": "public/western-dresses/6153.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6154.jpg.jpeg",
+      "url": "/western-dresses/6154.jpg.jpeg",
+      "path": "public/western-dresses/6154.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6155.jpg.jpeg",
+      "url": "/western-dresses/6155.jpg.jpeg",
+      "path": "public/western-dresses/6155.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6156.jpg.jpeg",
+      "url": "/western-dresses/6156.jpg.jpeg",
+      "path": "public/western-dresses/6156.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6163.jpg.jpeg",
+      "url": "/western-dresses/6163.jpg.jpeg",
+      "path": "public/western-dresses/6163.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6170.jpg.jpeg",
+      "url": "/western-dresses/6170.jpg.jpeg",
+      "path": "public/western-dresses/6170.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6174.jpg.jpeg",
+      "url": "/western-dresses/6174.jpg.jpeg",
+      "path": "public/western-dresses/6174.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6175.jpg.jpeg",
+      "url": "/western-dresses/6175.jpg.jpeg",
+      "path": "public/western-dresses/6175.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6176.jpg.jpeg",
+      "url": "/western-dresses/6176.jpg.jpeg",
+      "path": "public/western-dresses/6176.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6177.jpg.jpeg",
+      "url": "/western-dresses/6177.jpg.jpeg",
+      "path": "public/western-dresses/6177.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6180.jpg.jpeg",
+      "url": "/western-dresses/6180.jpg.jpeg",
+      "path": "public/western-dresses/6180.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6181.jpg.jpeg",
+      "url": "/western-dresses/6181.jpg.jpeg",
+      "path": "public/western-dresses/6181.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6184.jpg.jpeg",
+      "url": "/western-dresses/6184.jpg.jpeg",
+      "path": "public/western-dresses/6184.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6188.jpg.jpeg",
+      "url": "/western-dresses/6188.jpg.jpeg",
+      "path": "public/western-dresses/6188.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6189.jpg.jpeg",
+      "url": "/western-dresses/6189.jpg.jpeg",
+      "path": "public/western-dresses/6189.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6191.jpg.jpeg",
+      "url": "/western-dresses/6191.jpg.jpeg",
+      "path": "public/western-dresses/6191.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6193.jpg.jpeg",
+      "url": "/western-dresses/6193.jpg.jpeg",
+      "path": "public/western-dresses/6193.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6195.jpg.jpeg",
+      "url": "/western-dresses/6195.jpg.jpeg",
+      "path": "public/western-dresses/6195.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6204.jpg.jpeg",
+      "url": "/western-dresses/6204.jpg.jpeg",
+      "path": "public/western-dresses/6204.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6205.jpg.jpeg",
+      "url": "/western-dresses/6205.jpg.jpeg",
+      "path": "public/western-dresses/6205.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6207.jpg.jpeg",
+      "url": "/western-dresses/6207.jpg.jpeg",
+      "path": "public/western-dresses/6207.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6208.jpg.jpeg",
+      "url": "/western-dresses/6208.jpg.jpeg",
+      "path": "public/western-dresses/6208.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6209.jpg.jpeg",
+      "url": "/western-dresses/6209.jpg.jpeg",
+      "path": "public/western-dresses/6209.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6210.jpg.jpeg",
+      "url": "/western-dresses/6210.jpg.jpeg",
+      "path": "public/western-dresses/6210.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6211.jpg.jpeg",
+      "url": "/western-dresses/6211.jpg.jpeg",
+      "path": "public/western-dresses/6211.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6212.jpg.jpeg",
+      "url": "/western-dresses/6212.jpg.jpeg",
+      "path": "public/western-dresses/6212.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6214.jpg.jpeg",
+      "url": "/western-dresses/6214.jpg.jpeg",
+      "path": "public/western-dresses/6214.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6216.jpg.jpeg",
+      "url": "/western-dresses/6216.jpg.jpeg",
+      "path": "public/western-dresses/6216.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6217.jpg.jpeg",
+      "url": "/western-dresses/6217.jpg.jpeg",
+      "path": "public/western-dresses/6217.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6218.jpg.jpeg",
+      "url": "/western-dresses/6218.jpg.jpeg",
+      "path": "public/western-dresses/6218.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6219.jpg.jpeg",
+      "url": "/western-dresses/6219.jpg.jpeg",
+      "path": "public/western-dresses/6219.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6221.jpg.jpeg",
+      "url": "/western-dresses/6221.jpg.jpeg",
+      "path": "public/western-dresses/6221.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6232.jpg.jpeg",
+      "url": "/western-dresses/6232.jpg.jpeg",
+      "path": "public/western-dresses/6232.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6234.jpg.jpeg",
+      "url": "/western-dresses/6234.jpg.jpeg",
+      "path": "public/western-dresses/6234.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6239.jpg.jpeg",
+      "url": "/western-dresses/6239.jpg.jpeg",
+      "path": "public/western-dresses/6239.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6240.jpg.jpeg",
+      "url": "/western-dresses/6240.jpg.jpeg",
+      "path": "public/western-dresses/6240.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6241.jpg.jpeg",
+      "url": "/western-dresses/6241.jpg.jpeg",
+      "path": "public/western-dresses/6241.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6247.jpg.jpeg",
+      "url": "/western-dresses/6247.jpg.jpeg",
+      "path": "public/western-dresses/6247.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6248.jpg.jpeg",
+      "url": "/western-dresses/6248.jpg.jpeg",
+      "path": "public/western-dresses/6248.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6252.jpg.jpeg",
+      "url": "/western-dresses/6252.jpg.jpeg",
+      "path": "public/western-dresses/6252.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6254.jpg.jpeg",
+      "url": "/western-dresses/6254.jpg.jpeg",
+      "path": "public/western-dresses/6254.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6257.jpg.jpeg",
+      "url": "/western-dresses/6257.jpg.jpeg",
+      "path": "public/western-dresses/6257.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6258.jpg.jpeg",
+      "url": "/western-dresses/6258.jpg.jpeg",
+      "path": "public/western-dresses/6258.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6262.jpg.jpeg",
+      "url": "/western-dresses/6262.jpg.jpeg",
+      "path": "public/western-dresses/6262.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6268.jpg.jpeg",
+      "url": "/western-dresses/6268.jpg.jpeg",
+      "path": "public/western-dresses/6268.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6286.jpg.jpeg",
+      "url": "/western-dresses/6286.jpg.jpeg",
+      "path": "public/western-dresses/6286.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6289.jpg.jpeg",
+      "url": "/western-dresses/6289.jpg.jpeg",
+      "path": "public/western-dresses/6289.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6290.jpg.jpeg",
+      "url": "/western-dresses/6290.jpg.jpeg",
+      "path": "public/western-dresses/6290.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6296.jpg.jpeg",
+      "url": "/western-dresses/6296.jpg.jpeg",
+      "path": "public/western-dresses/6296.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6297.jpg.jpeg",
+      "url": "/western-dresses/6297.jpg.jpeg",
+      "path": "public/western-dresses/6297.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6298.jpg.jpeg",
+      "url": "/western-dresses/6298.jpg.jpeg",
+      "path": "public/western-dresses/6298.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6300.jpg.jpeg",
+      "url": "/western-dresses/6300.jpg.jpeg",
+      "path": "public/western-dresses/6300.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6317.jpg.jpeg",
+      "url": "/western-dresses/6317.jpg.jpeg",
+      "path": "public/western-dresses/6317.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6318.jpg.jpeg",
+      "url": "/western-dresses/6318.jpg.jpeg",
+      "path": "public/western-dresses/6318.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6319.jpg.jpeg",
+      "url": "/western-dresses/6319.jpg.jpeg",
+      "path": "public/western-dresses/6319.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6321.jpg.jpeg",
+      "url": "/western-dresses/6321.jpg.jpeg",
+      "path": "public/western-dresses/6321.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6327.jpg.jpeg",
+      "url": "/western-dresses/6327.jpg.jpeg",
+      "path": "public/western-dresses/6327.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6328.jpg.jpeg",
+      "url": "/western-dresses/6328.jpg.jpeg",
+      "path": "public/western-dresses/6328.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6329.jpg.jpeg",
+      "url": "/western-dresses/6329.jpg.jpeg",
+      "path": "public/western-dresses/6329.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6330.jpg.jpeg",
+      "url": "/western-dresses/6330.jpg.jpeg",
+      "path": "public/western-dresses/6330.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6338.jpg.jpeg",
+      "url": "/western-dresses/6338.jpg.jpeg",
+      "path": "public/western-dresses/6338.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6339.jpg.jpeg",
+      "url": "/western-dresses/6339.jpg.jpeg",
+      "path": "public/western-dresses/6339.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6347.jpg.jpeg",
+      "url": "/western-dresses/6347.jpg.jpeg",
+      "path": "public/western-dresses/6347.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6348.jpg.jpeg",
+      "url": "/western-dresses/6348.jpg.jpeg",
+      "path": "public/western-dresses/6348.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6349.jpg.jpeg",
+      "url": "/western-dresses/6349.jpg.jpeg",
+      "path": "public/western-dresses/6349.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6351.jpg.jpeg",
+      "url": "/western-dresses/6351.jpg.jpeg",
+      "path": "public/western-dresses/6351.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6352.jpg.jpeg",
+      "url": "/western-dresses/6352.jpg.jpeg",
+      "path": "public/western-dresses/6352.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6353.jpg.jpeg",
+      "url": "/western-dresses/6353.jpg.jpeg",
+      "path": "public/western-dresses/6353.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6354.jpg.jpeg",
+      "url": "/western-dresses/6354.jpg.jpeg",
+      "path": "public/western-dresses/6354.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6356.jpg.jpeg",
+      "url": "/western-dresses/6356.jpg.jpeg",
+      "path": "public/western-dresses/6356.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6357.jpg.jpeg",
+      "url": "/western-dresses/6357.jpg.jpeg",
+      "path": "public/western-dresses/6357.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6358.jpg.jpeg",
+      "url": "/western-dresses/6358.jpg.jpeg",
+      "path": "public/western-dresses/6358.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6359.jpg.jpeg",
+      "url": "/western-dresses/6359.jpg.jpeg",
+      "path": "public/western-dresses/6359.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6360.jpg.jpeg",
+      "url": "/western-dresses/6360.jpg.jpeg",
+      "path": "public/western-dresses/6360.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6361.jpg.jpeg",
+      "url": "/western-dresses/6361.jpg.jpeg",
+      "path": "public/western-dresses/6361.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6362.jpg.jpeg",
+      "url": "/western-dresses/6362.jpg.jpeg",
+      "path": "public/western-dresses/6362.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6364.jpg.jpeg",
+      "url": "/western-dresses/6364.jpg.jpeg",
+      "path": "public/western-dresses/6364.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6367.jpg.jpeg",
+      "url": "/western-dresses/6367.jpg.jpeg",
+      "path": "public/western-dresses/6367.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6370.jpg.jpeg",
+      "url": "/western-dresses/6370.jpg.jpeg",
+      "path": "public/western-dresses/6370.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6371.jpg.jpeg",
+      "url": "/western-dresses/6371.jpg.jpeg",
+      "path": "public/western-dresses/6371.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6372.jpg.jpeg",
+      "url": "/western-dresses/6372.jpg.jpeg",
+      "path": "public/western-dresses/6372.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6376.jpg.jpeg",
+      "url": "/western-dresses/6376.jpg.jpeg",
+      "path": "public/western-dresses/6376.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6381.jpg.jpeg",
+      "url": "/western-dresses/6381.jpg.jpeg",
+      "path": "public/western-dresses/6381.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6384.jpg.jpeg",
+      "url": "/western-dresses/6384.jpg.jpeg",
+      "path": "public/western-dresses/6384.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6385.jpg.jpeg",
+      "url": "/western-dresses/6385.jpg.jpeg",
+      "path": "public/western-dresses/6385.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6386.jpg.jpeg",
+      "url": "/western-dresses/6386.jpg.jpeg",
+      "path": "public/western-dresses/6386.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6387.jpg.jpeg",
+      "url": "/western-dresses/6387.jpg.jpeg",
+      "path": "public/western-dresses/6387.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6388.jpg.jpeg",
+      "url": "/western-dresses/6388.jpg.jpeg",
+      "path": "public/western-dresses/6388.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6391.jpg.jpeg",
+      "url": "/western-dresses/6391.jpg.jpeg",
+      "path": "public/western-dresses/6391.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6392.jpg.jpeg",
+      "url": "/western-dresses/6392.jpg.jpeg",
+      "path": "public/western-dresses/6392.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6393.jpg.jpeg",
+      "url": "/western-dresses/6393.jpg.jpeg",
+      "path": "public/western-dresses/6393.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6394.jpg.jpeg",
+      "url": "/western-dresses/6394.jpg.jpeg",
+      "path": "public/western-dresses/6394.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6398.jpg.jpeg",
+      "url": "/western-dresses/6398.jpg.jpeg",
+      "path": "public/western-dresses/6398.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6404.jpg.jpeg",
+      "url": "/western-dresses/6404.jpg.jpeg",
+      "path": "public/western-dresses/6404.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6406.jpg.jpeg",
+      "url": "/western-dresses/6406.jpg.jpeg",
+      "path": "public/western-dresses/6406.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "6407.jpg.jpeg",
+      "url": "/western-dresses/6407.jpg.jpeg",
+      "path": "public/western-dresses/6407.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9636.jpg.jpeg",
+      "url": "/western-dresses/9636.jpg.jpeg",
+      "path": "public/western-dresses/9636.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9638.jpg.jpeg",
+      "url": "/western-dresses/9638.jpg.jpeg",
+      "path": "public/western-dresses/9638.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9666.jpg.jpeg",
+      "url": "/western-dresses/9666.jpg.jpeg",
+      "path": "public/western-dresses/9666.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9845.jpg.jpeg",
+      "url": "/western-dresses/9845.jpg.jpeg",
+      "path": "public/western-dresses/9845.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9896.jpg.jpeg",
+      "url": "/western-dresses/9896.jpg.jpeg",
+      "path": "public/western-dresses/9896.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9935.jpg.jpeg",
+      "url": "/western-dresses/9935.jpg.jpeg",
+      "path": "public/western-dresses/9935.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9995.jpg.jpeg",
+      "url": "/western-dresses/9995.jpg.jpeg",
+      "path": "public/western-dresses/9995.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9996.jpg.jpeg",
+      "url": "/western-dresses/9996.jpg.jpeg",
+      "path": "public/western-dresses/9996.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "9998.jpg.jpeg",
+      "url": "/western-dresses/9998.jpg.jpeg",
+      "path": "public/western-dresses/9998.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0252.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA0252.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA0252.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0501.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA0501.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA0501.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA0596.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA0596.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA0596.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA1689.jpg (1).jpeg",
+      "url": "/western-dresses/IMG-20261103-WA1689.jpg (1).jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA1689.jpg (1).jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3130.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA3130.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA3130.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA3950.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA3950.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA3950.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA5102.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA5102.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA5102.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9465.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA9465.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9520.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA9520.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA9520.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    },
+    {
+      "filename": "IMG-20261103-WA9899.jpg.jpeg",
+      "url": "/western-dresses/IMG-20261103-WA9899.jpg.jpeg",
+      "path": "public/western-dresses/IMG-20261103-WA9899.jpg.jpeg",
+      "category": "western-dresses",
+      "status": "unassigned",
+      "notes": "Available for grouping into new products or attaching as additional photoshoot angles/variants to existing products."
+    }
+  ],
+  "products_reference": [
+    {
+      "id": "wd-0001",
+      "sku": "WST-WD-0001",
+      "name": "Saffron Sunrise Handblock Printed Tiered Maxi Dress",
+      "slug": "saffron-sunrise-handblock-printed-tiered-maxi-dress",
+      "coverPhoto": "/western-dresses/10633.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 001"
+    },
+    {
+      "id": "wd-0002",
+      "sku": "WST-WD-0002",
+      "name": "Indigo Dabu Sanganeri Floral Flared Shirt Dress",
+      "slug": "indigo-dabu-sanganeri-floral-flared-shirt-dress",
+      "coverPhoto": "/western-dresses/10637.jpg.jpeg",
+      "photosCount": 15,
+      "originalGroup": "Product Group 002"
+    },
+    {
+      "id": "wd-0003",
+      "sku": "WST-WD-0003",
+      "name": "Ivory Jasmine Smocked Bodice Pleated Tiered Dress",
+      "slug": "ivory-jasmine-smocked-bodice-pleated-tiered-dress",
+      "coverPhoto": "/western-dresses/10676.jpg (1).jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 003"
+    },
+    {
+      "id": "wd-0004",
+      "sku": "WST-WD-0004",
+      "name": "Blush Petal Chanderi Lurex Tiered Prairie Dress",
+      "slug": "blush-petal-chanderi-lurex-tiered-prairie-dress",
+      "coverPhoto": "/western-dresses/10241.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 004"
+    },
+    {
+      "id": "wd-0005",
+      "sku": "WST-WD-0005",
+      "name": "Terracotta Dune Cutwork Embroidered Ruffle Sundress",
+      "slug": "terracotta-dune-cutwork-embroidered-ruffle-sundress",
+      "coverPhoto": "/western-dresses/10431.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 005"
+    },
+    {
+      "id": "wd-0006",
+      "sku": "WST-WD-0006",
+      "name": "Marigold Bloom Ajrakh Geometric Midi Flared Dress",
+      "slug": "marigold-bloom-ajrakh-geometric-midi-flared-dress",
+      "coverPhoto": "/western-dresses/10429.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 006"
+    },
+    {
+      "id": "wd-0007",
+      "sku": "WST-WD-0007",
+      "name": "Sage Willow Handwoven Slub Cotton Wrap Dress",
+      "slug": "sage-willow-handwoven-slub-cotton-wrap-dress",
+      "coverPhoto": "/western-dresses/10687.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 007"
+    },
+    {
+      "id": "wd-0008",
+      "sku": "WST-WD-0008",
+      "name": "Cobalt Ocean Belted Button-Down Shirt Midi Dress",
+      "slug": "cobalt-ocean-belted-button-down-shirt-midi-dress",
+      "coverPhoto": "/western-dresses/10702.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 008"
+    },
+    {
+      "id": "wd-0009",
+      "sku": "WST-WD-0009",
+      "name": "Honey Amber Asymmetric Hem Boho Boho Dress",
+      "slug": "honey-amber-asymmetric-hem-boho-boho-dress",
+      "coverPhoto": "/western-dresses/10840.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 009"
+    },
+    {
+      "id": "wd-0010",
+      "sku": "WST-WD-0010",
+      "name": "Dusty Rose Pintuck Detailed Flounce Shift Dress",
+      "slug": "dusty-rose-pintuck-detailed-flounce-shift-dress",
+      "coverPhoto": "/western-dresses/10872.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 010"
+    },
+    {
+      "id": "wd-0011",
+      "sku": "WST-WD-0011",
+      "name": "Gulabi Lotus Flared Kali Summer Maxi Dress",
+      "slug": "gulabi-lotus-flared-kali-summer-maxi-dress",
+      "coverPhoto": "/western-dresses/5553.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 011"
+    },
+    {
+      "id": "wd-0012",
+      "sku": "WST-WD-0012",
+      "name": "Vintage Olive Kaftan Silhouette Flared Shirt Dress",
+      "slug": "vintage-olive-kaftan-silhouette-flared-shirt-dress",
+      "coverPhoto": "/western-dresses/5566.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 012"
+    },
+    {
+      "id": "wd-0013",
+      "sku": "WST-WD-0013",
+      "name": "Desert Sand Peasant Sleeve Cascading Tiered Dress",
+      "slug": "desert-sand-peasant-sleeve-cascading-tiered-dress",
+      "coverPhoto": "/western-dresses/5584.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 013"
+    },
+    {
+      "id": "wd-0014",
+      "sku": "WST-WD-0014",
+      "name": "Kashish Earth Gathered Yoke Prairie Prairie Dress",
+      "slug": "kashish-earth-gathered-yoke-prairie-prairie-dress",
+      "coverPhoto": "/western-dresses/5573.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 014"
+    },
+    {
+      "id": "wd-0015",
+      "sku": "WST-WD-0015",
+      "name": "French Lilac Angrakha Wrap Midi Sundress",
+      "slug": "french-lilac-angrakha-wrap-midi-sundress",
+      "coverPhoto": "/western-dresses/55729.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 015"
+    },
+    {
+      "id": "wd-0016",
+      "sku": "WST-WD-0016",
+      "name": "Cerulean Tide Ruffle Neckline Tiered Flared Dress",
+      "slug": "cerulean-tide-ruffle-neckline-tiered-flared-dress",
+      "coverPhoto": "/western-dresses/5601.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 016"
+    },
+    {
+      "id": "wd-0017",
+      "sku": "WST-WD-0017",
+      "name": "Crimson Dahlia Embroidered Yoke A-Line Wrap Dress",
+      "slug": "crimson-dahlia-embroidered-yoke-a-line-wrap-dress",
+      "coverPhoto": "/western-dresses/5640.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 017"
+    },
+    {
+      "id": "wd-0018",
+      "sku": "WST-WD-0018",
+      "name": "Coral Breeze Tiered Frill Maxi Midi Dress",
+      "slug": "coral-breeze-tiered-frill-maxi-midi-dress",
+      "coverPhoto": "/western-dresses/5661.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 018"
+    },
+    {
+      "id": "wd-0019",
+      "sku": "WST-WD-0019",
+      "name": "Pistachio Frost Side Slit Flared Bohemian Boho Dress",
+      "slug": "pistachio-frost-side-slit-flared-bohemian-boho-dress",
+      "coverPhoto": "/western-dresses/5678.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 019"
+    },
+    {
+      "id": "wd-0020",
+      "sku": "WST-WD-0020",
+      "name": "Midnight Sky Crossback Tie-Up Tiered Shift Dress",
+      "slug": "midnight-sky-crossback-tie-up-tiered-shift-dress",
+      "coverPhoto": "/western-dresses/5593.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 020"
+    },
+    {
+      "id": "wd-0021",
+      "sku": "WST-WD-0021",
+      "name": "Peony Magenta Handblock Printed Tiered Maxi Dress",
+      "slug": "peony-magenta-handblock-printed-tiered-maxi-dress",
+      "coverPhoto": "/western-dresses/5677.jpg.jpeg",
+      "photosCount": 7,
+      "originalGroup": "Product Group 021"
+    },
+    {
+      "id": "wd-0022",
+      "sku": "WST-WD-0022",
+      "name": "Turquoise Lagoon Sanganeri Floral Flared Shirt Dress",
+      "slug": "turquoise-lagoon-sanganeri-floral-flared-shirt-dress",
+      "coverPhoto": "/western-dresses/5694.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 022"
+    },
+    {
+      "id": "wd-0023",
+      "sku": "WST-WD-0023",
+      "name": "Toffee Caramel Smocked Bodice Pleated Tiered Dress",
+      "slug": "toffee-caramel-smocked-bodice-pleated-tiered-dress",
+      "coverPhoto": "/western-dresses/5707.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 023"
+    },
+    {
+      "id": "wd-0024",
+      "sku": "WST-WD-0024",
+      "name": "Mulberry Wine Chanderi Lurex Tiered Prairie Dress",
+      "slug": "mulberry-wine-chanderi-lurex-tiered-prairie-dress",
+      "coverPhoto": "/western-dresses/5711.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 024"
+    },
+    {
+      "id": "wd-0025",
+      "sku": "WST-WD-0025",
+      "name": "Apricot Blossom Cutwork Embroidered Ruffle Sundress",
+      "slug": "apricot-blossom-cutwork-embroidered-ruffle-sundress",
+      "coverPhoto": "/western-dresses/5714.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 025"
+    },
+    {
+      "id": "wd-0026",
+      "sku": "WST-WD-0026",
+      "name": "Forest Jade Ajrakh Geometric Midi Flared Dress",
+      "slug": "forest-jade-ajrakh-geometric-midi-flared-dress",
+      "coverPhoto": "/western-dresses/5665.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 026"
+    },
+    {
+      "id": "wd-0027",
+      "sku": "WST-WD-0027",
+      "name": "Sunset Amber Handwoven Slub Cotton Wrap Dress",
+      "slug": "sunset-amber-handwoven-slub-cotton-wrap-dress",
+      "coverPhoto": "/western-dresses/5759.jpg.jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 027"
+    },
+    {
+      "id": "wd-0028",
+      "sku": "WST-WD-0028",
+      "name": "Plum Orchid Belted Button-Down Shirt Midi Dress",
+      "slug": "plum-orchid-belted-button-down-shirt-midi-dress",
+      "coverPhoto": "/western-dresses/5777.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 028"
+    },
+    {
+      "id": "wd-0029",
+      "sku": "WST-WD-0029",
+      "name": "Pearl Magnolia Asymmetric Hem Boho Boho Dress",
+      "slug": "pearl-magnolia-asymmetric-hem-boho-boho-dress",
+      "coverPhoto": "/western-dresses/5781.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 029"
+    },
+    {
+      "id": "wd-0030",
+      "sku": "WST-WD-0030",
+      "name": "Mocha Bark Pintuck Detailed Flounce Shift Dress",
+      "slug": "mocha-bark-pintuck-detailed-flounce-shift-dress",
+      "coverPhoto": "/western-dresses/5785.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 030"
+    },
+    {
+      "id": "wd-0031",
+      "sku": "WST-WD-0031",
+      "name": "Golden Sunburst Flared Kali Summer Maxi Dress",
+      "slug": "golden-sunburst-flared-kali-summer-maxi-dress",
+      "coverPhoto": "/western-dresses/5788.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 031"
+    },
+    {
+      "id": "wd-0032",
+      "sku": "WST-WD-0032",
+      "name": "Celestial Azure Kaftan Silhouette Flared Shirt Dress",
+      "slug": "celestial-azure-kaftan-silhouette-flared-shirt-dress",
+      "coverPhoto": "/western-dresses/5795.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 032"
+    },
+    {
+      "id": "wd-0033",
+      "sku": "WST-WD-0033",
+      "name": "Spiced Cinnamon Peasant Sleeve Cascading Tiered Dress",
+      "slug": "spiced-cinnamon-peasant-sleeve-cascading-tiered-dress",
+      "coverPhoto": "/western-dresses/5856.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 033"
+    },
+    {
+      "id": "wd-0034",
+      "sku": "WST-WD-0034",
+      "name": "Mint Breeze Gathered Yoke Prairie Prairie Dress",
+      "slug": "mint-breeze-gathered-yoke-prairie-prairie-dress",
+      "coverPhoto": "/western-dresses/5876.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 034"
+    },
+    {
+      "id": "wd-0035",
+      "sku": "WST-WD-0035",
+      "name": "Royal Azure Angrakha Wrap Midi Sundress",
+      "slug": "royal-azure-angrakha-wrap-midi-sundress",
+      "coverPhoto": "/western-dresses/5885.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 035"
+    },
+    {
+      "id": "wd-0036",
+      "sku": "WST-WD-0036",
+      "name": "Paprika Glow Ruffle Neckline Tiered Flared Dress",
+      "slug": "paprika-glow-ruffle-neckline-tiered-flared-dress",
+      "coverPhoto": "/western-dresses/5888.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 036"
+    },
+    {
+      "id": "wd-0037",
+      "sku": "WST-WD-0037",
+      "name": "Buttercup Yellow Embroidered Yoke A-Line Wrap Dress",
+      "slug": "buttercup-yellow-embroidered-yoke-a-line-wrap-dress",
+      "coverPhoto": "/western-dresses/5891.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 037"
+    },
+    {
+      "id": "wd-0038",
+      "sku": "WST-WD-0038",
+      "name": "Lavender Mist Tiered Frill Maxi Midi Dress",
+      "slug": "lavender-mist-tiered-frill-maxi-midi-dress",
+      "coverPhoto": "/western-dresses/5896.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 038"
+    },
+    {
+      "id": "wd-0039",
+      "sku": "WST-WD-0039",
+      "name": "Chestnut Bronze Side Slit Flared Bohemian Boho Dress",
+      "slug": "chestnut-bronze-side-slit-flared-bohemian-boho-dress",
+      "coverPhoto": "/western-dresses/5900.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 039"
+    },
+    {
+      "id": "wd-0040",
+      "sku": "WST-WD-0040",
+      "name": "Flamingo Coral Crossback Tie-Up Tiered Shift Dress",
+      "slug": "flamingo-coral-crossback-tie-up-tiered-shift-dress",
+      "coverPhoto": "/western-dresses/59327.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 040"
+    },
+    {
+      "id": "wd-0041",
+      "sku": "WST-WD-0041",
+      "name": "Emerald Grove Handblock Printed Tiered Maxi Dress",
+      "slug": "emerald-grove-handblock-printed-tiered-maxi-dress",
+      "coverPhoto": "/western-dresses/5942.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 041"
+    },
+    {
+      "id": "wd-0042",
+      "sku": "WST-WD-0042",
+      "name": "Amethyst Dusk Sanganeri Floral Flared Shirt Dress",
+      "slug": "amethyst-dusk-sanganeri-floral-flared-shirt-dress",
+      "coverPhoto": "/western-dresses/5955.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 042"
+    },
+    {
+      "id": "wd-0043",
+      "sku": "WST-WD-0043",
+      "name": "Tangerine Glow Smocked Bodice Pleated Tiered Dress",
+      "slug": "tangerine-glow-smocked-bodice-pleated-tiered-dress",
+      "coverPhoto": "/western-dresses/6057.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 044"
+    },
+    {
+      "id": "wd-0044",
+      "sku": "WST-WD-0044",
+      "name": "Champagne Silk Chanderi Lurex Tiered Prairie Dress",
+      "slug": "champagne-silk-chanderi-lurex-tiered-prairie-dress",
+      "coverPhoto": "/western-dresses/61323.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 045"
+    },
+    {
+      "id": "wd-0045",
+      "sku": "WST-WD-0045",
+      "name": "Ocean Teal Cutwork Embroidered Ruffle Sundress",
+      "slug": "ocean-teal-cutwork-embroidered-ruffle-sundress",
+      "coverPhoto": "/western-dresses/5754.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 046"
+    },
+    {
+      "id": "wd-0046",
+      "sku": "WST-WD-0046",
+      "name": "Auburn Sunset Ajrakh Geometric Midi Flared Dress",
+      "slug": "auburn-sunset-ajrakh-geometric-midi-flared-dress",
+      "coverPhoto": "/western-dresses/5662.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 047"
+    },
+    {
+      "id": "wd-0047",
+      "sku": "WST-WD-0047",
+      "name": "Opal Whisper Handwoven Slub Cotton Wrap Dress",
+      "slug": "opal-whisper-handwoven-slub-cotton-wrap-dress",
+      "coverPhoto": "/western-dresses/5866.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 048"
+    },
+    {
+      "id": "wd-0048",
+      "sku": "WST-WD-0048",
+      "name": "Rosewood Vintage Belted Button-Down Shirt Midi Dress",
+      "slug": "rosewood-vintage-belted-button-down-shirt-midi-dress",
+      "coverPhoto": "/western-dresses/5881.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 049"
+    },
+    {
+      "id": "wd-0049",
+      "sku": "WST-WD-0049",
+      "name": "Bronze Ember Asymmetric Hem Boho Boho Dress",
+      "slug": "bronze-ember-asymmetric-hem-boho-boho-dress",
+      "coverPhoto": "/western-dresses/5898.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 050"
+    },
+    {
+      "id": "wd-0050",
+      "sku": "WST-WD-0050",
+      "name": "Peacock Jewel Pintuck Detailed Flounce Shift Dress",
+      "slug": "peacock-jewel-pintuck-detailed-flounce-shift-dress",
+      "coverPhoto": "/western-dresses/5902.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 051"
+    },
+    {
+      "id": "wd-0051",
+      "sku": "WST-WD-0051",
+      "name": "Saffron Sunrise Kaftan Silhouette Flared Maxi Dress",
+      "slug": "saffron-sunrise-kaftan-silhouette-flared-maxi-dress",
+      "coverPhoto": "/western-dresses/5948.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 052"
+    },
+    {
+      "id": "wd-0052",
+      "sku": "WST-WD-0052",
+      "name": "Indigo Dabu Peasant Sleeve Cascading Shirt Dress",
+      "slug": "indigo-dabu-peasant-sleeve-cascading-shirt-dress",
+      "coverPhoto": "/western-dresses/5958.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 053"
+    },
+    {
+      "id": "wd-0053",
+      "sku": "WST-WD-0053",
+      "name": "Ivory Jasmine Gathered Yoke Prairie Tiered Dress",
+      "slug": "ivory-jasmine-gathered-yoke-prairie-tiered-dress",
+      "coverPhoto": "/western-dresses/5978.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 054"
+    },
+    {
+      "id": "wd-0054",
+      "sku": "WST-WD-0054",
+      "name": "Blush Petal Angrakha Wrap Midi Prairie Dress",
+      "slug": "blush-petal-angrakha-wrap-midi-prairie-dress",
+      "coverPhoto": "/western-dresses/5773.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 055"
+    },
+    {
+      "id": "wd-0055",
+      "sku": "WST-WD-0055",
+      "name": "Terracotta Dune Ruffle Neckline Tiered Sundress",
+      "slug": "terracotta-dune-ruffle-neckline-tiered-sundress",
+      "coverPhoto": "/western-dresses/6036.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 056"
+    },
+    {
+      "id": "wd-0056",
+      "sku": "WST-WD-0056",
+      "name": "Marigold Bloom Embroidered Yoke A-Line Flared Dress",
+      "slug": "marigold-bloom-embroidered-yoke-a-line-flared-dress",
+      "coverPhoto": "/western-dresses/5950.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 057"
+    },
+    {
+      "id": "wd-0057",
+      "sku": "WST-WD-0057",
+      "name": "Sage Willow Tiered Frill Maxi Wrap Dress",
+      "slug": "sage-willow-tiered-frill-maxi-wrap-dress",
+      "coverPhoto": "/western-dresses/6080.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 058"
+    },
+    {
+      "id": "wd-0058",
+      "sku": "WST-WD-0058",
+      "name": "Cobalt Ocean Side Slit Flared Bohemian Midi Dress",
+      "slug": "cobalt-ocean-side-slit-flared-bohemian-midi-dress",
+      "coverPhoto": "/western-dresses/61302.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 059"
+    },
+    {
+      "id": "wd-0059",
+      "sku": "WST-WD-0059",
+      "name": "Honey Amber Crossback Tie-Up Tiered Boho Dress",
+      "slug": "honey-amber-crossback-tie-up-tiered-boho-dress",
+      "coverPhoto": "/western-dresses/6171.jpg.jpeg",
+      "photosCount": 24,
+      "originalGroup": "Product Group 060"
+    },
+    {
+      "id": "wd-0060",
+      "sku": "WST-WD-0060",
+      "name": "Dusty Rose Handblock Printed Tiered Shift Dress",
+      "slug": "dusty-rose-handblock-printed-tiered-shift-dress",
+      "coverPhoto": "/western-dresses/FB_IMG_1789315352815.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 061"
+    },
+    {
+      "id": "wd-0061",
+      "sku": "WST-WD-0061",
+      "name": "Gulabi Lotus Sanganeri Floral Flared Maxi Dress",
+      "slug": "gulabi-lotus-sanganeri-floral-flared-maxi-dress",
+      "coverPhoto": "/western-dresses/FB_IMG_1781793227598.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 062"
+    },
+    {
+      "id": "wd-0062",
+      "sku": "WST-WD-0062",
+      "name": "Vintage Olive Smocked Bodice Pleated Shirt Dress",
+      "slug": "vintage-olive-smocked-bodice-pleated-shirt-dress",
+      "coverPhoto": "/western-dresses/IMG_20251207_220638.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 063"
+    },
+    {
+      "id": "wd-0063",
+      "sku": "WST-WD-0063",
+      "name": "Desert Sand Chanderi Lurex Tiered Tiered Dress",
+      "slug": "desert-sand-chanderi-lurex-tiered-tiered-dress",
+      "coverPhoto": "/western-dresses/70758.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 064"
+    },
+    {
+      "id": "wd-0064",
+      "sku": "WST-WD-0064",
+      "name": "Kashish Earth Cutwork Embroidered Ruffle Prairie Dress",
+      "slug": "kashish-earth-cutwork-embroidered-ruffle-prairie-dress",
+      "coverPhoto": "/western-dresses/70751.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 065"
+    },
+    {
+      "id": "wd-0065",
+      "sku": "WST-WD-0065",
+      "name": "French Lilac Ajrakh Geometric Midi Sundress",
+      "slug": "french-lilac-ajrakh-geometric-midi-sundress",
+      "coverPhoto": "/western-dresses/68018.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 066"
+    },
+    {
+      "id": "wd-0066",
+      "sku": "WST-WD-0066",
+      "name": "Cerulean Tide Handwoven Slub Cotton Flared Dress",
+      "slug": "cerulean-tide-handwoven-slub-cotton-flared-dress",
+      "coverPhoto": "/western-dresses/67798.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 067"
+    },
+    {
+      "id": "wd-0067",
+      "sku": "WST-WD-0067",
+      "name": "Crimson Dahlia Belted Button-Down Shirt Wrap Dress",
+      "slug": "crimson-dahlia-belted-button-down-shirt-wrap-dress",
+      "coverPhoto": "/western-dresses/67785.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 068"
+    },
+    {
+      "id": "wd-0068",
+      "sku": "WST-WD-0068",
+      "name": "Coral Breeze Asymmetric Hem Boho Midi Dress",
+      "slug": "coral-breeze-asymmetric-hem-boho-midi-dress",
+      "coverPhoto": "/western-dresses/6513.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 069"
+    },
+    {
+      "id": "wd-0069",
+      "sku": "WST-WD-0069",
+      "name": "Pistachio Frost Pintuck Detailed Flounce Boho Dress",
+      "slug": "pistachio-frost-pintuck-detailed-flounce-boho-dress",
+      "coverPhoto": "/western-dresses/6485.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 070"
+    },
+    {
+      "id": "wd-0070",
+      "sku": "WST-WD-0070",
+      "name": "Midnight Sky Flared Kali Summer Shift Dress",
+      "slug": "midnight-sky-flared-kali-summer-shift-dress",
+      "coverPhoto": "/western-dresses/6482.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 071"
+    },
+    {
+      "id": "wd-0071",
+      "sku": "WST-WD-0071",
+      "name": "Peony Magenta Kaftan Silhouette Flared Maxi Dress",
+      "slug": "peony-magenta-kaftan-silhouette-flared-maxi-dress",
+      "coverPhoto": "/western-dresses/6315.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 072"
+    },
+    {
+      "id": "wd-0072",
+      "sku": "WST-WD-0072",
+      "name": "Turquoise Lagoon Peasant Sleeve Cascading Shirt Dress",
+      "slug": "turquoise-lagoon-peasant-sleeve-cascading-shirt-dress",
+      "coverPhoto": "/western-dresses/6400.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 073"
+    },
+    {
+      "id": "wd-0073",
+      "sku": "WST-WD-0073",
+      "name": "Toffee Caramel Gathered Yoke Prairie Tiered Dress",
+      "slug": "toffee-caramel-gathered-yoke-prairie-tiered-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA9974.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 074"
+    },
+    {
+      "id": "wd-0074",
+      "sku": "WST-WD-0074",
+      "name": "Mulberry Wine Angrakha Wrap Midi Prairie Dress",
+      "slug": "mulberry-wine-angrakha-wrap-midi-prairie-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA6995.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 075"
+    },
+    {
+      "id": "wd-0075",
+      "sku": "WST-WD-0075",
+      "name": "Apricot Blossom Ruffle Neckline Tiered Sundress",
+      "slug": "apricot-blossom-ruffle-neckline-tiered-sundress",
+      "coverPhoto": "/western-dresses/10982.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 076"
+    },
+    {
+      "id": "wd-0076",
+      "sku": "WST-WD-0076",
+      "name": "Forest Jade Embroidered Yoke A-Line Flared Dress",
+      "slug": "forest-jade-embroidered-yoke-a-line-flared-dress",
+      "coverPhoto": "/western-dresses/11054.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 077"
+    },
+    {
+      "id": "wd-0077",
+      "sku": "WST-WD-0077",
+      "name": "Sunset Amber Tiered Frill Maxi Wrap Dress",
+      "slug": "sunset-amber-tiered-frill-maxi-wrap-dress",
+      "coverPhoto": "/western-dresses/10885.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 078"
+    },
+    {
+      "id": "wd-0078",
+      "sku": "WST-WD-0078",
+      "name": "Plum Orchid Side Slit Flared Bohemian Midi Dress",
+      "slug": "plum-orchid-side-slit-flared-bohemian-midi-dress",
+      "coverPhoto": "/western-dresses/10887.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 079"
+    },
+    {
+      "id": "wd-0079",
+      "sku": "WST-WD-0079",
+      "name": "Pearl Magnolia Crossback Tie-Up Tiered Boho Dress",
+      "slug": "pearl-magnolia-crossback-tie-up-tiered-boho-dress",
+      "coverPhoto": "/western-dresses/11304.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 080"
+    },
+    {
+      "id": "wd-0080",
+      "sku": "WST-WD-0080",
+      "name": "Mocha Bark Handblock Printed Tiered Shift Dress",
+      "slug": "mocha-bark-handblock-printed-tiered-shift-dress",
+      "coverPhoto": "/western-dresses/11315.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 081"
+    },
+    {
+      "id": "wd-0081",
+      "sku": "WST-WD-0081",
+      "name": "Golden Sunburst Sanganeri Floral Flared Maxi Dress",
+      "slug": "golden-sunburst-sanganeri-floral-flared-maxi-dress",
+      "coverPhoto": "/western-dresses/11088.jpg.jpeg",
+      "photosCount": 18,
+      "originalGroup": "Product Group 082"
+    },
+    {
+      "id": "wd-0082",
+      "sku": "WST-WD-0082",
+      "name": "Celestial Azure Smocked Bodice Pleated Shirt Dress",
+      "slug": "celestial-azure-smocked-bodice-pleated-shirt-dress",
+      "coverPhoto": "/western-dresses/11498.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 083"
+    },
+    {
+      "id": "wd-0083",
+      "sku": "WST-WD-0083",
+      "name": "Spiced Cinnamon Chanderi Lurex Tiered Tiered Dress",
+      "slug": "spiced-cinnamon-chanderi-lurex-tiered-tiered-dress",
+      "coverPhoto": "/western-dresses/11534.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 084"
+    },
+    {
+      "id": "wd-0084",
+      "sku": "WST-WD-0084",
+      "name": "Mint Breeze Cutwork Embroidered Ruffle Prairie Dress",
+      "slug": "mint-breeze-cutwork-embroidered-ruffle-prairie-dress",
+      "coverPhoto": "/western-dresses/11796.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 085"
+    },
+    {
+      "id": "wd-0085",
+      "sku": "WST-WD-0085",
+      "name": "Royal Azure Ajrakh Geometric Midi Sundress",
+      "slug": "royal-azure-ajrakh-geometric-midi-sundress",
+      "coverPhoto": "/western-dresses/11930.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 086"
+    },
+    {
+      "id": "wd-0086",
+      "sku": "WST-WD-0086",
+      "name": "Paprika Glow Handwoven Slub Cotton Flared Dress",
+      "slug": "paprika-glow-handwoven-slub-cotton-flared-dress",
+      "coverPhoto": "/western-dresses/10846.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 087"
+    },
+    {
+      "id": "wd-0087",
+      "sku": "WST-WD-0087",
+      "name": "Buttercup Yellow Belted Button-Down Shirt Wrap Dress",
+      "slug": "buttercup-yellow-belted-button-down-shirt-wrap-dress",
+      "coverPhoto": "/western-dresses/11085.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 088"
+    },
+    {
+      "id": "wd-0088",
+      "sku": "WST-WD-0088",
+      "name": "Lavender Mist Asymmetric Hem Boho Midi Dress",
+      "slug": "lavender-mist-asymmetric-hem-boho-midi-dress",
+      "coverPhoto": "/western-dresses/11533.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 089"
+    },
+    {
+      "id": "wd-0089",
+      "sku": "WST-WD-0089",
+      "name": "Chestnut Bronze Pintuck Detailed Flounce Boho Dress",
+      "slug": "chestnut-bronze-pintuck-detailed-flounce-boho-dress",
+      "coverPhoto": "/western-dresses/11641.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 090"
+    },
+    {
+      "id": "wd-0090",
+      "sku": "WST-WD-0090",
+      "name": "Flamingo Coral Flared Kali Summer Shift Dress",
+      "slug": "flamingo-coral-flared-kali-summer-shift-dress",
+      "coverPhoto": "/western-dresses/11832.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 091"
+    },
+    {
+      "id": "wd-0091",
+      "sku": "WST-WD-0091",
+      "name": "Emerald Grove Kaftan Silhouette Flared Maxi Dress",
+      "slug": "emerald-grove-kaftan-silhouette-flared-maxi-dress",
+      "coverPhoto": "/western-dresses/12369.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 092"
+    },
+    {
+      "id": "wd-0092",
+      "sku": "WST-WD-0092",
+      "name": "Amethyst Dusk Peasant Sleeve Cascading Shirt Dress",
+      "slug": "amethyst-dusk-peasant-sleeve-cascading-shirt-dress",
+      "coverPhoto": "/western-dresses/11397.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 093"
+    },
+    {
+      "id": "wd-0093",
+      "sku": "WST-WD-0093",
+      "name": "Tangerine Glow Gathered Yoke Prairie Tiered Dress",
+      "slug": "tangerine-glow-gathered-yoke-prairie-tiered-dress",
+      "coverPhoto": "/western-dresses/12368.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 094"
+    },
+    {
+      "id": "wd-0094",
+      "sku": "WST-WD-0094",
+      "name": "Champagne Silk Angrakha Wrap Midi Prairie Dress",
+      "slug": "champagne-silk-angrakha-wrap-midi-prairie-dress",
+      "coverPhoto": "/western-dresses/11720.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 095"
+    },
+    {
+      "id": "wd-0095",
+      "sku": "WST-WD-0095",
+      "name": "Ocean Teal Ruffle Neckline Tiered Sundress",
+      "slug": "ocean-teal-ruffle-neckline-tiered-sundress",
+      "coverPhoto": "/western-dresses/13010.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 096"
+    },
+    {
+      "id": "wd-0096",
+      "sku": "WST-WD-0096",
+      "name": "Auburn Sunset Embroidered Yoke A-Line Flared Dress",
+      "slug": "auburn-sunset-embroidered-yoke-a-line-flared-dress",
+      "coverPhoto": "/western-dresses/14927.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 097"
+    },
+    {
+      "id": "wd-0097",
+      "sku": "WST-WD-0097",
+      "name": "Opal Whisper Tiered Frill Maxi Wrap Dress",
+      "slug": "opal-whisper-tiered-frill-maxi-wrap-dress",
+      "coverPhoto": "/western-dresses/16843.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 098"
+    },
+    {
+      "id": "wd-0098",
+      "sku": "WST-WD-0098",
+      "name": "Rosewood Vintage Side Slit Flared Bohemian Midi Dress",
+      "slug": "rosewood-vintage-side-slit-flared-bohemian-midi-dress",
+      "coverPhoto": "/western-dresses/16875.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 099"
+    },
+    {
+      "id": "wd-0099",
+      "sku": "WST-WD-0099",
+      "name": "Bronze Ember Crossback Tie-Up Tiered Boho Dress",
+      "slug": "bronze-ember-crossback-tie-up-tiered-boho-dress",
+      "coverPhoto": "/western-dresses/16879.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 100"
+    },
+    {
+      "id": "wd-0100",
+      "sku": "WST-WD-0100",
+      "name": "Peacock Jewel Handblock Printed Tiered Shift Dress",
+      "slug": "peacock-jewel-handblock-printed-tiered-shift-dress",
+      "coverPhoto": "/western-dresses/1999.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 101"
+    },
+    {
+      "id": "wd-0101",
+      "sku": "WST-WD-0101",
+      "name": "Saffron Sunrise Smocked Bodice Pleated Maxi Dress",
+      "slug": "saffron-sunrise-smocked-bodice-pleated-maxi-dress",
+      "coverPhoto": "/western-dresses/5498.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 102"
+    },
+    {
+      "id": "wd-0102",
+      "sku": "WST-WD-0102",
+      "name": "Indigo Dabu Chanderi Lurex Tiered Shirt Dress",
+      "slug": "indigo-dabu-chanderi-lurex-tiered-shirt-dress",
+      "coverPhoto": "/western-dresses/5548.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 103"
+    },
+    {
+      "id": "wd-0103",
+      "sku": "WST-WD-0103",
+      "name": "Ivory Jasmine Cutwork Embroidered Ruffle Tiered Dress",
+      "slug": "ivory-jasmine-cutwork-embroidered-ruffle-tiered-dress",
+      "coverPhoto": "/western-dresses/16213.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 104"
+    },
+    {
+      "id": "wd-0104",
+      "sku": "WST-WD-0104",
+      "name": "Blush Petal Ajrakh Geometric Midi Prairie Dress",
+      "slug": "blush-petal-ajrakh-geometric-midi-prairie-dress",
+      "coverPhoto": "/western-dresses/16214.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 105"
+    },
+    {
+      "id": "wd-0105",
+      "sku": "WST-WD-0105",
+      "name": "Terracotta Dune Handwoven Slub Cotton Sundress",
+      "slug": "terracotta-dune-handwoven-slub-cotton-sundress",
+      "coverPhoto": "/western-dresses/16650.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 106"
+    },
+    {
+      "id": "wd-0106",
+      "sku": "WST-WD-0106",
+      "name": "Marigold Bloom Belted Button-Down Shirt Flared Dress",
+      "slug": "marigold-bloom-belted-button-down-shirt-flared-dress",
+      "coverPhoto": "/western-dresses/16652.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 107"
+    },
+    {
+      "id": "wd-0107",
+      "sku": "WST-WD-0107",
+      "name": "Sage Willow Asymmetric Hem Boho Wrap Dress",
+      "slug": "sage-willow-asymmetric-hem-boho-wrap-dress",
+      "coverPhoto": "/western-dresses/5545.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 108"
+    },
+    {
+      "id": "wd-0108",
+      "sku": "WST-WD-0108",
+      "name": "Cobalt Ocean Pintuck Detailed Flounce Midi Dress",
+      "slug": "cobalt-ocean-pintuck-detailed-flounce-midi-dress",
+      "coverPhoto": "/western-dresses/5570.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 110"
+    },
+    {
+      "id": "wd-0109",
+      "sku": "WST-WD-0109",
+      "name": "Honey Amber Flared Kali Summer Boho Dress",
+      "slug": "honey-amber-flared-kali-summer-boho-dress",
+      "coverPhoto": "/western-dresses/5572.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 111"
+    },
+    {
+      "id": "wd-0110",
+      "sku": "WST-WD-0110",
+      "name": "Dusty Rose Kaftan Silhouette Flared Shift Dress",
+      "slug": "dusty-rose-kaftan-silhouette-flared-shift-dress",
+      "coverPhoto": "/western-dresses/6270.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 112"
+    },
+    {
+      "id": "wd-0111",
+      "sku": "WST-WD-0111",
+      "name": "Gulabi Lotus Peasant Sleeve Cascading Maxi Dress",
+      "slug": "gulabi-lotus-peasant-sleeve-cascading-maxi-dress",
+      "coverPhoto": "/western-dresses/6303.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 113"
+    },
+    {
+      "id": "wd-0112",
+      "sku": "WST-WD-0112",
+      "name": "Vintage Olive Gathered Yoke Prairie Shirt Dress",
+      "slug": "vintage-olive-gathered-yoke-prairie-shirt-dress",
+      "coverPhoto": "/western-dresses/13260.jpg.jpeg",
+      "photosCount": 40,
+      "originalGroup": "Product Group 114"
+    },
+    {
+      "id": "wd-0113",
+      "sku": "WST-WD-0113",
+      "name": "Desert Sand Angrakha Wrap Midi Tiered Dress",
+      "slug": "desert-sand-angrakha-wrap-midi-tiered-dress",
+      "coverPhoto": "/western-dresses/4669.jpg.jpeg",
+      "photosCount": 12,
+      "originalGroup": "Product Group 115"
+    },
+    {
+      "id": "wd-0114",
+      "sku": "WST-WD-0114",
+      "name": "Kashish Earth Ruffle Neckline Tiered Prairie Dress",
+      "slug": "kashish-earth-ruffle-neckline-tiered-prairie-dress",
+      "coverPhoto": "/western-dresses/6108.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 116"
+    },
+    {
+      "id": "wd-0115",
+      "sku": "WST-WD-0115",
+      "name": "French Lilac Embroidered Yoke A-Line Sundress",
+      "slug": "french-lilac-embroidered-yoke-a-line-sundress",
+      "coverPhoto": "/western-dresses/6150.jpg.jpeg",
+      "photosCount": 6,
+      "originalGroup": "Product Group 117"
+    },
+    {
+      "id": "wd-0116",
+      "sku": "WST-WD-0116",
+      "name": "Cerulean Tide Tiered Frill Maxi Flared Dress",
+      "slug": "cerulean-tide-tiered-frill-maxi-flared-dress",
+      "coverPhoto": "/western-dresses/FB_IMG_1765772420306.jpg.jpeg",
+      "photosCount": 23,
+      "originalGroup": "Product Group 118"
+    },
+    {
+      "id": "wd-0117",
+      "sku": "WST-WD-0117",
+      "name": "Crimson Dahlia Side Slit Flared Bohemian Wrap Dress",
+      "slug": "crimson-dahlia-side-slit-flared-bohemian-wrap-dress",
+      "coverPhoto": "/western-dresses/9759.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 119"
+    },
+    {
+      "id": "wd-0118",
+      "sku": "WST-WD-0118",
+      "name": "Coral Breeze Crossback Tie-Up Tiered Midi Dress",
+      "slug": "coral-breeze-crossback-tie-up-tiered-midi-dress",
+      "coverPhoto": "/western-dresses/9673.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 120"
+    },
+    {
+      "id": "wd-0119",
+      "sku": "WST-WD-0119",
+      "name": "Pistachio Frost Handblock Printed Tiered Boho Dress",
+      "slug": "pistachio-frost-handblock-printed-tiered-boho-dress",
+      "coverPhoto": "/western-dresses/9710.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 121"
+    },
+    {
+      "id": "wd-0120",
+      "sku": "WST-WD-0120",
+      "name": "Midnight Sky Sanganeri Floral Flared Shift Dress",
+      "slug": "midnight-sky-sanganeri-floral-flared-shift-dress",
+      "coverPhoto": "/western-dresses/9800.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 122"
+    },
+    {
+      "id": "wd-0121",
+      "sku": "WST-WD-0121",
+      "name": "Peony Magenta Smocked Bodice Pleated Maxi Dress",
+      "slug": "peony-magenta-smocked-bodice-pleated-maxi-dress",
+      "coverPhoto": "/western-dresses/9803.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 123"
+    },
+    {
+      "id": "wd-0122",
+      "sku": "WST-WD-0122",
+      "name": "Turquoise Lagoon Chanderi Lurex Tiered Shirt Dress",
+      "slug": "turquoise-lagoon-chanderi-lurex-tiered-shirt-dress",
+      "coverPhoto": "/western-dresses/9936.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 124"
+    },
+    {
+      "id": "wd-0123",
+      "sku": "WST-WD-0123",
+      "name": "Toffee Caramel Cutwork Embroidered Ruffle Tiered Dress",
+      "slug": "toffee-caramel-cutwork-embroidered-ruffle-tiered-dress",
+      "coverPhoto": "/western-dresses/9583.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 125"
+    },
+    {
+      "id": "wd-0124",
+      "sku": "WST-WD-0124",
+      "name": "Mulberry Wine Ajrakh Geometric Midi Prairie Dress",
+      "slug": "mulberry-wine-ajrakh-geometric-midi-prairie-dress",
+      "coverPhoto": "/western-dresses/6490.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 126"
+    },
+    {
+      "id": "wd-0125",
+      "sku": "WST-WD-0125",
+      "name": "Apricot Blossom Handwoven Slub Cotton Sundress",
+      "slug": "apricot-blossom-handwoven-slub-cotton-sundress",
+      "coverPhoto": "/western-dresses/9635.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 127"
+    },
+    {
+      "id": "wd-0126",
+      "sku": "WST-WD-0126",
+      "name": "Forest Jade Belted Button-Down Shirt Flared Dress",
+      "slug": "forest-jade-belted-button-down-shirt-flared-dress",
+      "coverPhoto": "/western-dresses/9651.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 128"
+    },
+    {
+      "id": "wd-0127",
+      "sku": "WST-WD-0127",
+      "name": "Sunset Amber Asymmetric Hem Boho Wrap Dress",
+      "slug": "sunset-amber-asymmetric-hem-boho-wrap-dress",
+      "coverPhoto": "/western-dresses/11095.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 129"
+    },
+    {
+      "id": "wd-0128",
+      "sku": "WST-WD-0128",
+      "name": "Plum Orchid Pintuck Detailed Flounce Midi Dress",
+      "slug": "plum-orchid-pintuck-detailed-flounce-midi-dress",
+      "coverPhoto": "/western-dresses/12331.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 130"
+    },
+    {
+      "id": "wd-0129",
+      "sku": "WST-WD-0129",
+      "name": "Pearl Magnolia Flared Kali Summer Boho Dress",
+      "slug": "pearl-magnolia-flared-kali-summer-boho-dress",
+      "coverPhoto": "/western-dresses/6313.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 131"
+    },
+    {
+      "id": "wd-0130",
+      "sku": "WST-WD-0130",
+      "name": "Mocha Bark Kaftan Silhouette Flared Shift Dress",
+      "slug": "mocha-bark-kaftan-silhouette-flared-shift-dress",
+      "coverPhoto": "/western-dresses/6308.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 132"
+    },
+    {
+      "id": "wd-0131",
+      "sku": "WST-WD-0131",
+      "name": "Golden Sunburst Peasant Sleeve Cascading Maxi Dress",
+      "slug": "golden-sunburst-peasant-sleeve-cascading-maxi-dress",
+      "coverPhoto": "/western-dresses/6366.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 133"
+    },
+    {
+      "id": "wd-0132",
+      "sku": "WST-WD-0132",
+      "name": "Celestial Azure Gathered Yoke Prairie Shirt Dress",
+      "slug": "celestial-azure-gathered-yoke-prairie-shirt-dress",
+      "coverPhoto": "/western-dresses/6373.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 134"
+    },
+    {
+      "id": "wd-0133",
+      "sku": "WST-WD-0133",
+      "name": "Spiced Cinnamon Angrakha Wrap Midi Tiered Dress",
+      "slug": "spiced-cinnamon-angrakha-wrap-midi-tiered-dress",
+      "coverPhoto": "/western-dresses/6263.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 135"
+    },
+    {
+      "id": "wd-0134",
+      "sku": "WST-WD-0134",
+      "name": "Mint Breeze Ruffle Neckline Tiered Prairie Dress",
+      "slug": "mint-breeze-ruffle-neckline-tiered-prairie-dress",
+      "coverPhoto": "/western-dresses/6245.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 136"
+    },
+    {
+      "id": "wd-0135",
+      "sku": "WST-WD-0135",
+      "name": "Royal Azure Embroidered Yoke A-Line Sundress",
+      "slug": "royal-azure-embroidered-yoke-a-line-sundress",
+      "coverPhoto": "/western-dresses/6282.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 137"
+    },
+    {
+      "id": "wd-0136",
+      "sku": "WST-WD-0136",
+      "name": "Paprika Glow Tiered Frill Maxi Flared Dress",
+      "slug": "paprika-glow-tiered-frill-maxi-flared-dress",
+      "coverPhoto": "/western-dresses/6305.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 138"
+    },
+    {
+      "id": "wd-0137",
+      "sku": "WST-WD-0137",
+      "name": "Buttercup Yellow Side Slit Flared Bohemian Wrap Dress",
+      "slug": "buttercup-yellow-side-slit-flared-bohemian-wrap-dress",
+      "coverPhoto": "/western-dresses/6397.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 139"
+    },
+    {
+      "id": "wd-0138",
+      "sku": "WST-WD-0138",
+      "name": "Lavender Mist Crossback Tie-Up Tiered Midi Dress",
+      "slug": "lavender-mist-crossback-tie-up-tiered-midi-dress",
+      "coverPhoto": "/western-dresses/5821.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 140"
+    },
+    {
+      "id": "wd-0139",
+      "sku": "WST-WD-0139",
+      "name": "Chestnut Bronze Handblock Printed Tiered Boho Dress",
+      "slug": "chestnut-bronze-handblock-printed-tiered-boho-dress",
+      "coverPhoto": "/western-dresses/6053.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 141"
+    },
+    {
+      "id": "wd-0140",
+      "sku": "WST-WD-0140",
+      "name": "Flamingo Coral Sanganeri Floral Flared Shift Dress",
+      "slug": "flamingo-coral-sanganeri-floral-flared-shift-dress",
+      "coverPhoto": "/western-dresses/6093.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 142"
+    },
+    {
+      "id": "wd-0141",
+      "sku": "WST-WD-0141",
+      "name": "Emerald Grove Smocked Bodice Pleated Maxi Dress",
+      "slug": "emerald-grove-smocked-bodice-pleated-maxi-dress",
+      "coverPhoto": "/western-dresses/6261.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 143"
+    },
+    {
+      "id": "wd-0142",
+      "sku": "WST-WD-0142",
+      "name": "Amethyst Dusk Chanderi Lurex Tiered Shirt Dress",
+      "slug": "amethyst-dusk-chanderi-lurex-tiered-shirt-dress",
+      "coverPhoto": "/western-dresses/11394.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 144"
+    },
+    {
+      "id": "wd-0143",
+      "sku": "WST-WD-0143",
+      "name": "Tangerine Glow Cutwork Embroidered Ruffle Tiered Dress",
+      "slug": "tangerine-glow-cutwork-embroidered-ruffle-tiered-dress",
+      "coverPhoto": "/western-dresses/12447.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 145"
+    },
+    {
+      "id": "wd-0144",
+      "sku": "WST-WD-0144",
+      "name": "Champagne Silk Ajrakh Geometric Midi Prairie Dress",
+      "slug": "champagne-silk-ajrakh-geometric-midi-prairie-dress",
+      "coverPhoto": "/western-dresses/11205.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 146"
+    },
+    {
+      "id": "wd-0145",
+      "sku": "WST-WD-0145",
+      "name": "Ocean Teal Handwoven Slub Cotton Sundress",
+      "slug": "ocean-teal-handwoven-slub-cotton-sundress",
+      "coverPhoto": "/western-dresses/12156.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 147"
+    },
+    {
+      "id": "wd-0146",
+      "sku": "WST-WD-0146",
+      "name": "Auburn Sunset Belted Button-Down Shirt Flared Dress",
+      "slug": "auburn-sunset-belted-button-down-shirt-flared-dress",
+      "coverPhoto": "/western-dresses/5989.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 148"
+    },
+    {
+      "id": "wd-0147",
+      "sku": "WST-WD-0147",
+      "name": "Opal Whisper Asymmetric Hem Boho Wrap Dress",
+      "slug": "opal-whisper-asymmetric-hem-boho-wrap-dress",
+      "coverPhoto": "/western-dresses/5981.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 149"
+    },
+    {
+      "id": "wd-0148",
+      "sku": "WST-WD-0148",
+      "name": "Rosewood Vintage Pintuck Detailed Flounce Midi Dress",
+      "slug": "rosewood-vintage-pintuck-detailed-flounce-midi-dress",
+      "coverPhoto": "/western-dresses/6031.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 150"
+    },
+    {
+      "id": "wd-0149",
+      "sku": "WST-WD-0149",
+      "name": "Bronze Ember Flared Kali Summer Boho Dress",
+      "slug": "bronze-ember-flared-kali-summer-boho-dress",
+      "coverPhoto": "/western-dresses/6059.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 151"
+    },
+    {
+      "id": "wd-0150",
+      "sku": "WST-WD-0150",
+      "name": "Peacock Jewel Kaftan Silhouette Flared Shift Dress",
+      "slug": "peacock-jewel-kaftan-silhouette-flared-shift-dress",
+      "coverPhoto": "/western-dresses/6051.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 152"
+    },
+    {
+      "id": "wd-0151",
+      "sku": "WST-WD-0151",
+      "name": "Saffron Sunrise Gathered Yoke Prairie Maxi Dress",
+      "slug": "saffron-sunrise-gathered-yoke-prairie-maxi-dress",
+      "coverPhoto": "/western-dresses/6142.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 153"
+    },
+    {
+      "id": "wd-0152",
+      "sku": "WST-WD-0152",
+      "name": "Indigo Dabu Angrakha Wrap Midi Shirt Dress",
+      "slug": "indigo-dabu-angrakha-wrap-midi-shirt-dress",
+      "coverPhoto": "/western-dresses/6306.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 154"
+    },
+    {
+      "id": "wd-0153",
+      "sku": "WST-WD-0153",
+      "name": "Ivory Jasmine Ruffle Neckline Tiered Tiered Dress",
+      "slug": "ivory-jasmine-ruffle-neckline-tiered-tiered-dress",
+      "coverPhoto": "/western-dresses/5962.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 155"
+    },
+    {
+      "id": "wd-0154",
+      "sku": "WST-WD-0154",
+      "name": "Blush Petal Embroidered Yoke A-Line Prairie Dress",
+      "slug": "blush-petal-embroidered-yoke-a-line-prairie-dress",
+      "coverPhoto": "/western-dresses/6141.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 156"
+    },
+    {
+      "id": "wd-0155",
+      "sku": "WST-WD-0155",
+      "name": "Terracotta Dune Tiered Frill Maxi Sundress",
+      "slug": "terracotta-dune-tiered-frill-maxi-sundress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA7377.jpg.jpeg",
+      "photosCount": 15,
+      "originalGroup": "Product Group 158"
+    },
+    {
+      "id": "wd-0156",
+      "sku": "WST-WD-0156",
+      "name": "Marigold Bloom Side Slit Flared Bohemian Flared Dress",
+      "slug": "marigold-bloom-side-slit-flared-bohemian-flared-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA5701.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 159"
+    },
+    {
+      "id": "wd-0157",
+      "sku": "WST-WD-0157",
+      "name": "Sage Willow Crossback Tie-Up Tiered Wrap Dress",
+      "slug": "sage-willow-crossback-tie-up-tiered-wrap-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA9576.jpg.jpeg",
+      "photosCount": 12,
+      "originalGroup": "Product Group 160"
+    },
+    {
+      "id": "wd-0158",
+      "sku": "WST-WD-0158",
+      "name": "Cobalt Ocean Handblock Printed Tiered Midi Dress",
+      "slug": "cobalt-ocean-handblock-printed-tiered-midi-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA3190.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 161"
+    },
+    {
+      "id": "wd-0159",
+      "sku": "WST-WD-0159",
+      "name": "Honey Amber Sanganeri Floral Flared Boho Dress",
+      "slug": "honey-amber-sanganeri-floral-flared-boho-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA4753.jpg.jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 162"
+    },
+    {
+      "id": "wd-0160",
+      "sku": "WST-WD-0160",
+      "name": "Dusty Rose Smocked Bodice Pleated Shift Dress",
+      "slug": "dusty-rose-smocked-bodice-pleated-shift-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA8496.jpg.jpeg",
+      "photosCount": 12,
+      "originalGroup": "Product Group 163"
+    },
+    {
+      "id": "wd-0161",
+      "sku": "WST-WD-0161",
+      "name": "Gulabi Lotus Chanderi Lurex Tiered Maxi Dress",
+      "slug": "gulabi-lotus-chanderi-lurex-tiered-maxi-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA8931.jpg (1).jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 164"
+    },
+    {
+      "id": "wd-0162",
+      "sku": "WST-WD-0162",
+      "name": "Vintage Olive Cutwork Embroidered Ruffle Shirt Dress",
+      "slug": "vintage-olive-cutwork-embroidered-ruffle-shirt-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA2087.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 165"
+    },
+    {
+      "id": "wd-0163",
+      "sku": "WST-WD-0163",
+      "name": "Desert Sand Ajrakh Geometric Midi Tiered Dress",
+      "slug": "desert-sand-ajrakh-geometric-midi-tiered-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA9381.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 166"
+    },
+    {
+      "id": "wd-0164",
+      "sku": "WST-WD-0164",
+      "name": "Kashish Earth Handwoven Slub Cotton Prairie Dress",
+      "slug": "kashish-earth-handwoven-slub-cotton-prairie-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA8164.jpg.jpeg",
+      "photosCount": 1,
+      "originalGroup": "Product Group 167"
+    },
+    {
+      "id": "wd-0165",
+      "sku": "WST-WD-0165",
+      "name": "French Lilac Belted Button-Down Shirt Sundress",
+      "slug": "french-lilac-belted-button-down-shirt-sundress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA9408.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 168"
+    },
+    {
+      "id": "wd-0166",
+      "sku": "WST-WD-0166",
+      "name": "Cerulean Tide Asymmetric Hem Boho Flared Dress",
+      "slug": "cerulean-tide-asymmetric-hem-boho-flared-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA6612.jpg.jpeg",
+      "photosCount": 8,
+      "originalGroup": "Product Group 169"
+    },
+    {
+      "id": "wd-0167",
+      "sku": "WST-WD-0167",
+      "name": "Crimson Dahlia Pintuck Detailed Flounce Wrap Dress",
+      "slug": "crimson-dahlia-pintuck-detailed-flounce-wrap-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA2646.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 170"
+    },
+    {
+      "id": "wd-0168",
+      "sku": "WST-WD-0168",
+      "name": "Coral Breeze Flared Kali Summer Midi Dress",
+      "slug": "coral-breeze-flared-kali-summer-midi-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA9483.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 171"
+    },
+    {
+      "id": "wd-0169",
+      "sku": "WST-WD-0169",
+      "name": "Pistachio Frost Kaftan Silhouette Flared Boho Dress",
+      "slug": "pistachio-frost-kaftan-silhouette-flared-boho-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA2364.jpg.jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 172"
+    },
+    {
+      "id": "wd-0170",
+      "sku": "WST-WD-0170",
+      "name": "Midnight Sky Peasant Sleeve Cascading Shift Dress",
+      "slug": "midnight-sky-peasant-sleeve-cascading-shift-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA7514.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 173"
+    },
+    {
+      "id": "wd-0171",
+      "sku": "WST-WD-0171",
+      "name": "Peony Magenta Gathered Yoke Prairie Maxi Dress",
+      "slug": "peony-magenta-gathered-yoke-prairie-maxi-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA7051.jpg.jpeg",
+      "photosCount": 19,
+      "originalGroup": "Product Group 174"
+    },
+    {
+      "id": "wd-0172",
+      "sku": "WST-WD-0172",
+      "name": "Turquoise Lagoon Angrakha Wrap Midi Shirt Dress",
+      "slug": "turquoise-lagoon-angrakha-wrap-midi-shirt-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA5891.jpg.jpeg",
+      "photosCount": 9,
+      "originalGroup": "Product Group 175"
+    },
+    {
+      "id": "wd-0173",
+      "sku": "WST-WD-0173",
+      "name": "Toffee Caramel Ruffle Neckline Tiered Tiered Dress",
+      "slug": "toffee-caramel-ruffle-neckline-tiered-tiered-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA8938.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 176"
+    },
+    {
+      "id": "wd-0174",
+      "sku": "WST-WD-0174",
+      "name": "Mulberry Wine Embroidered Yoke A-Line Prairie Dress",
+      "slug": "mulberry-wine-embroidered-yoke-a-line-prairie-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA7543.jpg.jpeg",
+      "photosCount": 15,
+      "originalGroup": "Product Group 177"
+    },
+    {
+      "id": "wd-0175",
+      "sku": "WST-WD-0175",
+      "name": "Apricot Blossom Tiered Frill Maxi Sundress",
+      "slug": "apricot-blossom-tiered-frill-maxi-sundress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA4446.jpg (1).jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 178"
+    },
+    {
+      "id": "wd-0176",
+      "sku": "WST-WD-0176",
+      "name": "Forest Jade Side Slit Flared Bohemian Flared Dress",
+      "slug": "forest-jade-side-slit-flared-bohemian-flared-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA6383.jpg.jpeg",
+      "photosCount": 11,
+      "originalGroup": "Product Group 179"
+    },
+    {
+      "id": "wd-0177",
+      "sku": "WST-WD-0177",
+      "name": "Sunset Amber Crossback Tie-Up Tiered Wrap Dress",
+      "slug": "sunset-amber-crossback-tie-up-tiered-wrap-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA3643.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 180"
+    },
+    {
+      "id": "wd-0178",
+      "sku": "WST-WD-0178",
+      "name": "Plum Orchid Handblock Printed Tiered Midi Dress",
+      "slug": "plum-orchid-handblock-printed-tiered-midi-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA2576.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 181"
+    },
+    {
+      "id": "wd-0179",
+      "sku": "WST-WD-0179",
+      "name": "Pearl Magnolia Sanganeri Floral Flared Boho Dress",
+      "slug": "pearl-magnolia-sanganeri-floral-flared-boho-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA9273.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 182"
+    },
+    {
+      "id": "wd-0180",
+      "sku": "WST-WD-0180",
+      "name": "Mocha Bark Smocked Bodice Pleated Shift Dress",
+      "slug": "mocha-bark-smocked-bodice-pleated-shift-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA6679.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 183"
+    },
+    {
+      "id": "wd-0181",
+      "sku": "WST-WD-0181",
+      "name": "Golden Sunburst Chanderi Lurex Tiered Maxi Dress",
+      "slug": "golden-sunburst-chanderi-lurex-tiered-maxi-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA5012.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 184"
+    },
+    {
+      "id": "wd-0182",
+      "sku": "WST-WD-0182",
+      "name": "Celestial Azure Cutwork Embroidered Ruffle Shirt Dress",
+      "slug": "celestial-azure-cutwork-embroidered-ruffle-shirt-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA2785.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 185"
+    },
+    {
+      "id": "wd-0183",
+      "sku": "WST-WD-0183",
+      "name": "Spiced Cinnamon Ajrakh Geometric Midi Tiered Dress",
+      "slug": "spiced-cinnamon-ajrakh-geometric-midi-tiered-dress",
+      "coverPhoto": "/western-dresses/IMG-20261103-WA8804.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 186"
+    },
+    {
+      "id": "wd-0184",
+      "sku": "WST-WD-0184",
+      "name": "Mint Breeze Handwoven Slub Cotton Prairie Dress",
+      "slug": "mint-breeze-handwoven-slub-cotton-prairie-dress",
+      "coverPhoto": "/western-dresses/6117.jpg.jpeg",
+      "photosCount": 2,
+      "originalGroup": "Product Group 187"
+    },
+    {
+      "id": "wd-0185",
+      "sku": "WST-WD-0185",
+      "name": "Royal Azure Belted Button-Down Shirt Sundress",
+      "slug": "royal-azure-belted-button-down-shirt-sundress",
+      "coverPhoto": "/western-dresses/11268.jpg.jpeg",
+      "photosCount": 4,
+      "originalGroup": "Product Group 188"
+    },
+    {
+      "id": "wd-0186",
+      "sku": "WST-WD-0186",
+      "name": "Paprika Glow Asymmetric Hem Boho Flared Dress",
+      "slug": "paprika-glow-asymmetric-hem-boho-flared-dress",
+      "coverPhoto": "/western-dresses/10949.jpg.jpeg",
+      "photosCount": 3,
+      "originalGroup": "Product Group 189"
+    },
+    {
+      "id": "wd-0187",
+      "sku": "WST-WD-0187",
+      "name": "Buttercup Yellow Pintuck Detailed Flounce Wrap Dress",
+      "slug": "buttercup-yellow-pintuck-detailed-flounce-wrap-dress",
+      "coverPhoto": "/western-dresses/10942.jpg.jpeg",
+      "photosCount": 5,
+      "originalGroup": "Product Group 190"
+    }
+  ]
+}
