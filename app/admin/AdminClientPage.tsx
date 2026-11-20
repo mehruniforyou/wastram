@@ -6222,7 +6222,7 @@ function AdminPageContent() {
 
           {/* ─── HOME COVERS TAB ────────────────────────────────────── */}
           {activeTab === "home-covers" && (
-            <div className="animate-fade-in -mx-4 -my-6 sm:-mx-8">
+            <div className="animate-fade-in w-full">
               <HomeCoversTab />
             </div>
           )}

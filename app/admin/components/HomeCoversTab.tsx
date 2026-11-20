@@ -254,7 +254,7 @@ export default function HomeCoversTab() {
   }
 
   return (
-    <div className="space-y-8 max-w-7xl mx-auto pb-16 font-sans">
+    <div className="w-full space-y-8 pb-16 font-sans">
       {/* Hidden File Input for Direct Uploads */}
       <input
         type="file"
@@ -691,7 +691,7 @@ function CoverImageCard({
   };
 
   return (
-    <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-white/10 rounded-2xl p-4 shadow-xs hover:border-[#0B2D7F]/40 transition-all flex flex-col justify-between">
+    <div className="bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-white/10 rounded-2xl p-4 shadow-xs hover:border-[#0B2D7F]/40 transition-all flex flex-col justify-between min-w-0">
       {/* Title & Description */}
       <div className="mb-3">
         <h4 className="font-serif text-sm font-semibold text-neutral-900 dark:text-white truncate">
@@ -747,14 +747,14 @@ function CoverImageCard({
           />
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 sm:gap-2">
           <button
             type="button"
             onClick={onBrowseClick}
-            className="flex-1 inline-flex items-center justify-center gap-1.5 py-1.5 rounded-lg border border-neutral-200 dark:border-white/10 bg-neutral-50 dark:bg-neutral-800/60 hover:bg-[#0B2D7F]/10 hover:text-[#0B2D7F] text-neutral-700 dark:text-neutral-300 text-[11px] font-medium transition-colors cursor-pointer"
+            className="flex-1 min-w-0 inline-flex items-center justify-center gap-1.5 py-1.5 px-2 rounded-lg border border-neutral-200 dark:border-white/10 bg-neutral-50 dark:bg-neutral-800/60 hover:bg-[#0B2D7F]/10 hover:text-[#0B2D7F] text-neutral-700 dark:text-neutral-300 text-[11px] font-medium transition-colors cursor-pointer"
           >
-            <FolderOpen size={13} />
-            <span>Choose from Catalog</span>
+            <FolderOpen size={13} className="shrink-0" />
+            <span className="truncate">Choose from Catalog</span>
           </button>
 
           <button
